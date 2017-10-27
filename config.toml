@@ -1,0 +1,6 @@
+#languageCode = "en-us"
+languageCode = "ko-kr"
+title = "My New Hugo Site"
+baseurl = "https://bluedskim.github.io/"
+theme = "ananke"
+publishDir = "../docs"
