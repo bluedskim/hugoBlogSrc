@@ -12,7 +12,13 @@ description = ""
 ASUS Chromebook C100PA-DS03 + Crouton + Debian Stretch
 
 #### 설치
-    sudo apt-get install hugo
+아래처럼 apt-get으로 설치하면 0.18 버전이 설치됨. 0.18  버전에서는 쓸 수 없는 theme 이 있어 더 최신 버전을 찾기로 함
+    
+    sudo apt-get install hugo 
+    
+https://packages.debian.org/sid/armhf/hugo/download 에서 0.25.1-2 버전을 다운로드 받아. dpkg 명령으로 설치
+    
+    sudo dpkg -i hugo_0.25.1-2_armhf.deb
     
 ### GitHub에 연결
 이것이 쉽지 않다. GitHub문서에 따르면 https://gohugo.io/hosting-and-deployment/hosting-on-github/ 
