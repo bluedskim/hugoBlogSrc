@@ -1,6 +1,15 @@
 #languageCode = "en-us"
 languageCode = "ko-kr"
-title = "My New Hugo Site"
+title = "bluedskim.github.io"
 baseurl = "https://bluedskim.github.io/"
 theme = "ananke"
+#theme = "gohugo-amp"
+#theme = "hugo-theme-minos"
 publishDir = "../docs"
+paginate = 10
+
+#hugo-theme-minos
+#[params]
+#    googleAnalytics = "UA-108812986-1"
+#    smartToc = true
+#    adsensePublisher = "ca-pub-5002590800077159"
