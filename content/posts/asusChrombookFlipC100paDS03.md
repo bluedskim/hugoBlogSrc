@@ -1,8 +1,8 @@
 +++
-tags = []
+tags = ["Chrombook","Flip","C100PA","DS03"]
 date = "2017-10-22T22:38:28+09:00"
 title = "ASUS Chrombook Flip C100PA DS03"
-description = "설명"
+description = "ASUS Chrombook Flip C100PA 장점과 단점"
 featured_image = ""
 +++
 ### 장점
@@ -11,6 +11,8 @@ featured_image = ""
 + 안드로이드 앱 구동
 + 긴 구동시간
 + 크롬브라우저의 사용성을 극대화 시켜주는 키보드
+
+![Example image](../images/IMG_20170123_230218.jpg)
 
 ### 단점
 #### ARM Cortex-A17 의 한계
