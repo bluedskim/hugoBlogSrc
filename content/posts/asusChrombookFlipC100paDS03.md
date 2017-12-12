@@ -1,8 +1,8 @@
 +++
 tags = ["Chrombook","Flip","C100PA","DS03"]
 date = "2017-10-22T22:38:28+09:00"
-title = "ASUS Chrombook Flip C100PA DS03"
-description = "ASUS Chrombook Flip C100PA 장점과 단점"
+title = "ASUS Chromebook Flip C100PA DS03"
+description = "ASUS Chromebook Flip C100PA 장점과 단점"
 featured_image = ""
 +++
 ### 장점
