@@ -41,6 +41,8 @@ config.toml 에 publishDir 를 변경(혹은 추가)한다.
 
     hugo new posts/tech/hugo.md
 
+한글명으로 페이지 생성해도 잘 된다.
+
 ### hugo server 구동
     hugo server -D
 + 브라우저로 접속 : http://localhost:1313
