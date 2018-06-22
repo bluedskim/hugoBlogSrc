@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Chromebook Flip C100P에서 사용할 Multitrack Recorder"
 date = "2017-12-13T22:38:28+09:00"
 tags = []
 featured_image = ""
