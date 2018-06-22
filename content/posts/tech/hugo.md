@@ -48,5 +48,10 @@ config.toml 에 publishDir 를 변경(혹은 추가)한다.
 + 브라우저로 접속 : http://localhost:1313
 + hugo.md 파일을 수정하면 즉시 로컬 사이트에 반영됨
 
+### 정적 파일 생성
+    hugo
+
+live reload 는 메모리상에서 이루어지고 실제 파일들 생성은 명령을 실행해야 생성됨
+
 ### 주요 파일들
 + ./themes/ananke/layouts/_default/baseof.html : head 태그 내용 수정
