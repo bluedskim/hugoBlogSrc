@@ -1,2 +1,2 @@
 hugo server -D
-#hugo server -t hugo-theme-minos
+#hugo server -D -t hugo-theme-minos
