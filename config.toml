@@ -6,7 +6,7 @@ baseurl = "https://bluedskim.github.io/"
 theme = "1_ananke"
 #theme = "gohugo-amp"
 #theme = "hugo-theme-minos"
-publishDir = "../docs"
+publishDir = "../bluedskim.github.io"
 paginate = 10
 
 [taxonomies]
