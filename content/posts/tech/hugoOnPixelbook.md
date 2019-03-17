@@ -1,7 +1,7 @@
 +++
-title = "pixelbook에서 hugo 설치"
+title = "Pixelbook에서 hugo 설치"
 date = "2019-03-15T22:38:28+09:00"
-tags = []
+tags = ["Pixelbook", "hugo"]
 featured_image = ""
 description = ""
 +++
