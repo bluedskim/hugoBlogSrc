@@ -55,3 +55,7 @@ live reload 는 메모리상에서 이루어지고 실제 파일들 생성은 �
 
 ### 주요 파일들
 + ./themes/ananke/layouts/_default/baseof.html : head 태그 내용 수정
+
+### 주의 사항
+
+posting용 md에는 날짜를 타이핑해야 하는데 현재 시스템 시각보다 이후의 시각을 입력하면 render가 되지 않는다
