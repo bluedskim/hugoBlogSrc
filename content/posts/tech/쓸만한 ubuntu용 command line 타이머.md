@@ -1,8 +1,8 @@
 +++
 title = "각종 작업 소요시간 체크용 우분투용 command line stopwatch"
 date = "2019-03-24T10:38:28+09:00"
-tags = []
-featured_image = ""
+tags = ["pixelbook", "termdown"]
+featured_image = "images/Screenshot 2019-03-24 at 11.55.46 AM.png"
 description = ""
 +++
 간단하게 터미널에서 작업 소요 시간을 체크 할 수 있는 방법들을 찾아봤는데 
