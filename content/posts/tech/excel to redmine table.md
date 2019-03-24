@@ -4,6 +4,7 @@ date = "2019-03-21T20:38:28+09:00"
 tags = ["redmine"]
 featured_image = ""
 description = ""
+view_count = ""
 +++
 레드마인에 테이블로 데이터를 보여줄 경우가 점점 많아지는데 수작업으로 하려니 너무 힘들어서 만들었다
 
