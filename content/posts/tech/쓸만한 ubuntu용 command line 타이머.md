@@ -12,7 +12,7 @@ https://superuser.com/questions/611538/is-there-a-way-to-display-a-countdown-or-
 terdon 이라는 분이 알려준 방법은 잘 동작하였지만
 https://superuser.com/questions/611538/is-there-a-way-to-display-a-countdown-or-stopwatch-timer-in-a-terminal?answertab=active#tab-top
 
-~/.bashrc 파일에 함수를 추가하고 터미널에서 바로 호출해서 쓰는 방법이라 프로그램 추가 설치가 필요없다는 장점이 있다
+~/.bashrc 파일에 함수를 추가하고 터미널에서 바로 호출해서 쓰는 방법이라 프로그램 추가 설치가 필요없다는 장점이 있다.
 
 	countdown(){
 		date1=$((`date +%s` + $1));
@@ -56,7 +56,7 @@ countdown 을 실행하려면 몇 초 후 정지할지 인수를 넘겨줘야 �
 	bluedskim@penguin:~$ kill -9 28554
 	bash: kill: (28554) - No such process
 	
-이것은 당연해 보인다. loop를 돌면서 새로 프로세스가 생성되기 때문이다.
+이것은 당연해 보인다. loop를 돌면서 계속해서 새로 프로세스가 생성되기 때문이다.
 
 그래서 sw라는 스크립트를 시도해봤는데
 
@@ -68,7 +68,7 @@ https://github.com/coryfklein/sw
 	Try 'date --help' for more information.
 
 마지막에 시도했던 termdown을 쓰려고 한다.
-termdown 은 python기반이기 때문에 컴퓨터에 python이 설치되어 있어야 하고 설치를 위해서는 pip도 있어야 한다는 제약사항이 있다
+하지만 termdown 은 python기반이기 때문에 컴퓨터에 python이 설치되어 있어야 하고 설치를 위해서는 pip도 있어야 한다는 제약사항이 있다
 
 pip는 pip3를 설치
 
