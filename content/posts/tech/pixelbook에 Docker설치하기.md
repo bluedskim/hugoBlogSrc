@@ -20,5 +20,3 @@ root 가 아닌 사용자(본인)도 쓸 수 있게 하기 위해 docker그룹�
 이후에 아래 명령이 잘 동작하는지 확인한다.
 
 	docker run hello-world 
-
-잘 된다(당연히)
