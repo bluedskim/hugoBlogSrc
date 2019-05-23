@@ -19,11 +19,25 @@ description = ""
 [참고]\
 * https://itsze.ro/blog/2018/08/08/quick-note-on-crostini-chinese-ime.html
 
+한글locale 설치
+
+	sudo apt-get install language-pack-ko
+
+	Reading package lists... Done
+	Building dependency tree       
+	Reading state information... Done
+	E: Unable to locate package language-pack-ko
+	
+	# 실패하여 모든 locale을 다 설치함 -.-
+	sudo apt-get install -y locales locales-all
+	
 한글입력기를 설치한다
 
 	sudo apt-get install fcitx-hangul
 
 fcitx-config-gtk3 도 같이 설치된다. fcitx-config-gtk3를 실행하여 한영 전환키를 취향에 맞게 설정한다
+
+[![termdown 스크린샷](/images/Screenshot 2019-05-23 at 1.22.02 PM.png)](/images/Screenshot 2019-05-23 at 1.22.02 PM.png)
 
 crostini에서 한글입력기를 사용하도록 설정변경 : /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf 에 추가]
 
