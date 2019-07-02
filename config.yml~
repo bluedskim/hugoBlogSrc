@@ -1,0 +1,65 @@
+archetypeDir: archetypes
+baseURL: ''
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+relativeURLs: true
+canonifyURLs: false
+config: config.yml
+contentDir: content
+dataDir: data
+defaultExtension: html
+defaultLayout: post
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+disableLiveReload: false
+disableRSS: false
+disableSitemap: false
+enableGitInfo: false
+enableRobotsTXT: false
+disable404: false
+disableHugoGeneratorInject: false
+disableKinds: []
+disablePathToLower: false                   ""
+enableEmoji: false
+enableMissingTranslationPlaceholders: false
+footnoteAnchorPrefix: ''
+footnoteReturnLinkContents: ''
+googleAnalytics: ''
+hasCJKLanguage: false
+languageCode: ''
+layoutDir: layouts
+log: false
+logFile: ''
+metaDataFormat: toml
+newContentEditor: ''
+noChmod: false
+noTimes: false
+paginate: 12
+paginatePath: page
+permalinks: null
+pluralizeListTitles: true
+preserveTaxonomyNames: false
+publishDir: public
+pygmentsCodeFencesGuessSyntax: false
+pygmentsStyle: monokai
+pygmentsUseClasses: false
+rssLimit: 15
+SectionPagesMenu: ''
+sitemap: null
+source: ''
+staticDir: static
+stepAnalysis: false
+templateMetrics: false
+themesDir: themes
+theme: ananke
+title: 하고 싶은 걸 하세요 Do What You Want
+titleCaseStyle: AP
+uglyURLs: true
+verbose: false
+verboseLog: false
+watch: true
+taxonomies: {category: categories, tag: tags}
+params:
+  custom_css: [custom.css]
+  featured_image: /attachment/profileImg.jpg

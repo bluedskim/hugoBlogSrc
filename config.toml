@@ -1,24 +1,104 @@
-#languageCode = "en-us"
-languageCode = "ko-kr"
-title = "bluedskim.github.io"
-baseurl = "https://bluedskim.github.io/"
-#theme = "2_hugo-theme-bleak"
-theme = "1_ananke"
-#theme = "gohugo-amp"
-#theme = "hugo-theme-minos"
+# Hugo variables
+#
+baseurl = "/"
+languageCode = "ko-KR"
+title = "Do What You Want To Do"
+theme = "hugo-theme-bootstrap4-blog"
+# number of posts to show on home/category/tag pages (Default: 10)
+paginate = 5
+# optionally override the site's footer with custom copyright text
+# copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+googleAnalytics = "UA-108812986-1"
+disqusShortname = "bluedskim"
 publishDir = "../bluedskim.github.io"
-paginate = 10
+hasCJKLanguage = true
 
-[taxonomies]
-#  category = "categories"
-  tag = "tags"
-  
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
+
+[[menu.sidebar]]
+  name = "Bohemia"
+  url = "http://bohemia.band"
+
+[[menu.sidebar]]
+  name = "instagram"
+  url = "https://www.instagram.com/bluedskim/"
+
+[[menu.navbar]]
+  name = "Samba"
+  url = "/tags/samba/"
+
+[[menu.navbar]]
+  name = "음악"
+  url = "/categories/음악/"
+
+[[menu.navbar]]
+  name = "일상사"
+  url = "/categories/일상사/"
+
+# Theme variables
+#
 [params]
-featured_image = "/images/screen2017-10-02-23-00-01.jpg"
-env = "production"
+  # Site author
+  author = "Dennis"
 
-#hugo-theme-minos
-#[params]
-#    googleAnalytics = "UA-108812986-1"
-#    smartToc = true
-#    adsensePublisher = "ca-pub-5002590800077159"
+  # Description/subtitle for homepage (can be Markdown)
+  description = "bluedskim@gmail.com"
+
+  # Show header (default: true)
+  #header_visible = true
+
+  # Format dates with Go's time formatting
+  #date_format = "Mon Jan 02, 2006"
+  date_format = "2006-01-02"
+
+  # verification string for Google Webmaster Tools
+  #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
+
+  # verification string for Bing Webmaster Tools
+  #bing_verify_meta = "3DA353059F945D1AA256B1CD8A3DA847"
+
+  # verification string for Yandex Webmaster Tools
+  #yandex_verify_meta = "66b077430f35f04a"
+
+  # Optionally display a message about the site's use of cookies, which may be
+  # required for your site in the European Union. Set the parameter below to a
+  # page where the user can get more information about cookies, either on your
+  # site or externally, for example:
+  #cookie_consent_info_url = "/cookie-information/"
+  #cookie_consent_info_url = "http://cookiesandyou.com"
+
+  # show sharing icons on pages/posts (default: true)
+  sharingicons = false
+
+  # Display post summaries instead of content in list templates (default: true)
+  #truncate = true
+
+  # Disable the use of sub-resource integrity on CSS/JS assets (default: false)
+  # Useful if you're using a CDN or other host where you can't control cache headers
+  #disable_sri = false
+  custom_css = ["custom.css"]
+
+  [params.sidebar]
+    # Optional about block for sidebar (can be Markdown)
+    about = "잡다한것들을 기록합니다. something to remember"
+
+    # How many posts to show on the sidebar (Default: 5)
+    #num_recent_posts = 2
+
+  [params.social]
+    # Optional, used for attribution in Twitter cards (ideally not a person
+    # for example: nytimes, flickr, NatGeo, etc).
+    # See: https://dev.twitter.com/cards/types/summary-large-image
+    twitter = "username"
+
+# Default content language for Hugo 0.17's multilingual support (default is "en")
+# See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
+DefaultContentLanguage = "kr"
+
+# Languages to render
+#[languages.en]
+#[languages.bg]
+
+# vim: ts=2 sw=2 et

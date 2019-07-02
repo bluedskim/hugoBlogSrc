@@ -1,1 +1,1 @@
-hugo new posts/tech/hugo.md
+hugo new ./content/posts/tech/hugo.md
