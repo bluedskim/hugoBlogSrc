@@ -19,7 +19,12 @@ description = ""
 [참고]\
 * https://itsze.ro/blog/2018/08/08/quick-note-on-crostini-chinese-ime.html
 
-한글locale 설치
+[한글폰트 설치]
+
+http://ftp.kr.debian.org/debian/pool/main/f/fonts-nanum/fonts-nanum_20180306-1_all.deb 다운로드 후 설치\
+(저장소를 추가해서 설치하는 방법이 있지만 deb을 다운로드해서 설치하는 것이 훨씬 간편하다)
+
+[한글locale 설치]
 
 	sudo apt-get install language-pack-ko
 
@@ -31,21 +36,38 @@ description = ""
 	# 실패하여 모든 locale을 다 설치함 -.-
 	sudo apt-get install -y locales locales-all
 	
-한글입력기를 설치한다
+[한글입력기를 설치]
 
 	sudo apt-get install fcitx-hangul
 
 fcitx-config-gtk3 도 같이 설치된다. fcitx-config-gtk3를 실행하여 한영 전환키를 취향에 맞게 설정한다
 
-[![termdown 스크린샷](/images/Screenshot 2019-05-23 at 1.22.02 PM.png)](/images/Screenshot 2019-05-23 at 1.22.02 PM.png)
+[![fcitx-config-gtk3](/images/Screenshot 2019-05-23 at 1.22.02 PM.png)](/images/Screenshot 2019-05-23 at 1.22.02 PM.png)
 
-crostini에서 한글입력기를 사용하도록 설정변경 : /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf 에 추가]
+※ 설치 후 fcitx 데몬이 떠있지 않다면 fcitx-config-gtk3 를 띄웠을 때 input method tab에 아무것도 보이지 않는 증상이 발생한다. 이 때는 수동으로 데몬을 띄워준다.
+	
+	/usr/bin/fcitx-autostart
+	
+[crostini에서 한글입력기를 사용하도록 설정변경]\
+/etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf 에 추가
+
+	sudo vi /etc/systemd/user/cros-garcon.service.d/cros-garcon-override.conf
 
 	Environment="GTK_IM_MODULE=fcitx"
 	Environment="QT_IM_MODULE=fcitx"
 	Environment="XMODIFIERS=@im=fcitx"
 
-부팅시 fcitx 프로세스가 자동으로 기동되도록 한다 : ~/.sommelierrc 에 추가
+부팅 시 fcitx 프로세스가 자동으로 기동되도록 한다 : ~/.sommelierrc 에 추가
 
 	/usr/bin/fcitx-autostart
-	
+
+terminator에서 한글이 잘 입력된다.
+
+[![terminator에서 한글 입출력](/images/Screenshot 2019-07-31 at 12.42.45 PM.png)](/images/Screenshot 2019-07-31 at 12.42.45 PM.png)
+
+그런데 기본 터미널에 한글 입출력에 문제가 있다 -.-
+
+[![기본 터미널에 한글 입출력에 문제가 있다](/images/Screenshot 2019-07-31 at 12.51.33 PM.png)](/images/Screenshot 2019-07-31 at 12.51.33 PM.png)
+
+그래서  terminator 프로그램을 추천한다.\
+https://taufanlubis.wordpress.com/2011/08/15/terminator-%E2%80%93-multiple-gnome-terminals-in-one-window/
