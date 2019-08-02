@@ -83,3 +83,94 @@ https://flutter.dev/docs/get-started/install/linux
 		! No devices available
 
 	! Doctor found issues in 5 categories.
+	
+	
+	
+---
+title: "Pixelbook에서 Flutter로 앱 개발"
+date: 2019-07-31T15:14:43+09:00
+draft: true
+---
+
+* 참고 URL : https://flutter.dev/docs/get-started/install/linux
+
+## flutter 설치
+
+* 최신 SDK 다운로드  : https://flutter.dev/docs/development/tools/sdk/releases?tab=linux
+* 적당한 위치에 압축 해제
+
+	cd ~/Utils
+	tar xf ~/Downloads/flutter_linux_v1.7.8+hotfix.4-stable.tar.xz
+	
+* flutter 경로를 path에 추가	
+
+	export PATH="$PATH:`pwd`/flutter/bin"
+
+그런데 위의 방식은 터미널을 새로 열때 마다 해야 하기 때문에 ~/.bashrc에 아래의 라인을 추가하는 것이 편하다
+
+	PATH="$PATH:/home/<user>/Utils/flutter/bin"
+
+* 가이드에 의하면 flutter설치 후 바로 각종 추가 파일들을 다운로드pre-download 하라고 하는데 필요할 때 알아서 다운로드 하므로 미리 할 필요 없을 듯
+
+* flutter 진단doctor 하기
+flutter 개발환경이 준비되었는지 확인하는 기능이다. 4가지 문제 발견!
+
+	bluedskim@penguin:~$  flutter doctor
+	Doctor summary (to see all details, run flutter doctor -v):
+	[!] Flutter (Channel stable, v1.7.8+hotfix.4, on Linux, locale en_US.UTF-8)
+		✗ Downloaded executables cannot execute on host.
+		  See https://github.com/flutter/flutter/issues/6207 for more information
+		  On Debian/Ubuntu/Mint: sudo apt-get install lib32stdc++6
+		  On Fedora: dnf install libstdc++.i686
+		  On Arch: pacman -S lib32-gcc-libs
+
+	[✗] Android toolchain - develop for Android devices
+		✗ Unable to locate Android SDK.
+		  Install Android Studio from: https://developer.android.com/studio/index.html
+		  On first launch it will assist you in installing the Android SDK components.
+		  (or visit https://flutter.dev/setup/#android-setup for detailed instructions).
+		  If the Android SDK has been installed to a custom location, set ANDROID_HOME to that location.
+		  You may also want to add it to your PATH environment variable.
+
+	[!] Android Studio (not installed)
+	[!] Connected device
+		! No devices available
+
+	! Doctor found issues in 4 categories.
+
+From the download Android Studio page, in the download options, look for “Command line tools only”: 
+
+* unstalling android studio
+rm -rf ~/.android/
+rm -rf ~/Android/
+rm -rf ~/.AndroidStudio3.4/
+and delete the extracted folder.
+
+--------------------------------
+
+android studio 없이  해본다 https://medium.com/snapp-mobile/turning-the-pixelbook-into-a-great-flutter-development-laptop-db29105cc789
+
+sdkmanager --list
+
+sdkmanager "build-tools;29.0.1" "emulator" "tools" "platform-tools" "platforms;android-29" "extras;google;google_play_services" "extras;google;webdriver" "system-images;android-29;google_apis_playstore;x86_64"
+
+export PATH="$PATH:~/Utils/flutter/bin"
+export PATH="$PATH:~/Utils/android-sdk/tools/bin"
+export PATH="$PATH:~/Utils/android-sdk/platform-tools"
+export ANDROID_HOME="/home/bluedskim/Utils/android-sdk"
+
+flutter doctor --android-licenses
+
+https://code.visualstudio.com/docs/?dv=linux64_deb
+
+Failed to launch emulator: emulator: ERROR: x86_64 emulation currently requires hardware acceleration!
+Please ensure KVM is properly installed and usable.
+CPU acceleration status: KVM requires a CPU that supports vmx or svm
+More info on configuring VM acceleration on Linux:
+https://developer.android.com/studio/run/emulator-acceleration#vm-linux
+General information on acceleration: https://developer.android.com/studio/run/emulator-acceleration.
+statvfs('/home/bluedskim/.android/avd/flutter_emulator.avd/snapshots/default_boot/ram.img') failed: No such file or directory
+
+
+https://support.elix.sr/#!/products/fwd/answers/Getting_started_with_fwd
+	
