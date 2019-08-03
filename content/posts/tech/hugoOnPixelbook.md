@@ -13,13 +13,13 @@ ASUS Chromebook C100PA-DS03 에 설치할 때와 마찬가지로 최신버전을
 
 다운 받은 후 설치
 
-    sudo dpkg -i libsass1_3.5.5-2_amd64.deb
+    $ sudo dpkg -i libsass1_3.5.5-2_amd64.deb
     
 다운로드 경로 https://packages.debian.org/sid/amd64/hugo/download
 
 다운 받은 후 설치
 
-    sudo dpkg -i hugo_0.54.0-1_amd64.deb 
+    $ sudo dpkg -i hugo_0.54.0-1_amd64.deb 
 
 # 구동
 
@@ -28,4 +28,4 @@ https://www.reddit.com/r/Crostini/comments/aewwhf/cannot_access_penguinlinuxtest
 
 서버 띄울 때 포트 변경해줘야 한다. 제일 유명한 포트 중에 하나인 8080을 사용하면 잘 뜬다
 
-    hugo server -D -p 8080
+    $ hugo server -D -p 8080

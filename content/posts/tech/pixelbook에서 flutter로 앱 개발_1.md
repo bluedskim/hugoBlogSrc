@@ -35,21 +35,52 @@ draft: false
 1. 최신 SDK 다운로드  : https://flutter.dev/docs/development/tools/sdk/releases?tab=linux
 1. 적당한 위치에 압축 해제
 
-		cd ~/Utils
+		cd ~/dev
 		tar xf ~/Downloads/flutter_linux_v1.7.8+hotfix.4-stable.tar.xz
 	
 1. flutter 경로를 path에 추가 : ~/.bashrc파일에 아래의 라인을 추가하는 것이 편하다
 
-		PATH="$PATH:/home/My/Utils/flutter/bin"
+		export PATH="$PATH:/home/My/dev/flutter/bin"
 
 * 가이드에 의하면 flutter설치 후 바로 각종 추가 파일들을 다운로드pre-download 하라고 하는데 필요할 때 알아서 다운로드 하므로 미리 할 필요 없을 듯
+
+## Java 설치
+
+왜 Java가 필요하냐고? Android sdkmanager 가 Java인 듯 -.- 어차피 설치할 Java라면 지금 설치하자.
+
+최신 Java를 설치해도 되지만 나는 1.8 버전이면  충분하기 때문에 1.8을 설치하겠다. 그리고 OpenJDK보다 OracleJDK가 빠르다고 하니 OracleJDK를 설치하겠다.
+
+Tharanga 란 분이 Github에 설치 스크립트를 공유해 주셔서 이것을 사용하려 한다. uninstall 스크립트도 제공해준다고 하니 좋지 아니한가
+
+https://github.com/chrishantha/install-java
+
+1. 설치 스크립트 다운로드
+
+		$ wget https://raw.githubusercontent.com/chrishantha/install-java/master/install-java.sh
+
+1. JDK 다운로드
+
+	jdk-8u212-linux-x64.tar.gz를 여기에서 다운로드 받자.
+	https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8u211-later-5573849.html 
+
+1. 암호화 확장 기능 다운로드
+
+	암호화 확장 기능은 Java 개발시에만 필요한 기능이지만 Pixelbook에서 Java개발을 할거라면 미리 설치하자. 
+	jce_policy-8.zip 는 여기에서 다운로드 한다.
+	https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
+
+1. 설치 스크립트 실행
+
+	다운로드한 3개의 파일은 모두 하나의 폴더에 있어야 한다.
+	
+		sudo ./install-java.sh -f ./jdk-8u212-linux-x64.tar.gz
 
 ## Android SDK Tools 와 Android SDK 설치
 
 1. Android SDK 용 폴더 생성
 
-		mkdir ~/Utils/android-sdk
-		cd ~/Utils/android-sdk
+		mkdir ~/dev/android-sdk
+		cd ~/dev/android-sdk
 
 1. 명령행 툴 받기 : https://developer.android.com/studio/#downloads 에서  “Command line tools only” 의 리눅스 버전을 받는다.
 * 혹은 '19.08.02 현재 최신버전을 wget으로 받기
@@ -62,7 +93,7 @@ draft: false
 	
 1. ~/.bashrc파일에 path 추가
 
-		export PATH="$PATH:~/Utils/android-sdk/tools/bin"
+		export PATH="$PATH:/home/My/dev/android-sdk/tools/bin"
 
 1. sdkmanager 로  필요한  SDK 받기 : 각각의 버전 번호는 '19.08.02 현재 최신 버전인데 버전업 될 수 있으니 확인 후 최신버전을 받자. 
 
@@ -87,6 +118,12 @@ draft: false
 1. Android 라이센스 동의
 
 		flutter doctor --android-licenses
+		
+## lib32stdc++6 설치
+	
+여기까지 하고 flutter doctor 를 실행해보면 "Downloaded executables cannot execute on host" 라면서 불평을 한다. lib32stdc++6를 설치하자.
+
+	$ sudo apt-get install lib32stdc++6
 	
 ## fwd 설치 & 개발용 android device에 개발자 모드 활성화 & adb connect over wifi	
 	
@@ -135,6 +172,8 @@ draft: false
 설치가 끝나면 터미널에서 실행하자. 실행 명령어는 code
 
 	code
+
+혹은 바로가기를 클릭한다. 
 
 실행 후에는 공식가이드에 따라 Flutter extensions을 설치한다
 https://flutter.dev/docs/get-started/editor?tab=vscode
