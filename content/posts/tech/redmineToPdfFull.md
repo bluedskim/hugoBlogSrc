@@ -1,5 +1,6 @@
 ---
 title: "우분투 command line에서 모든 레드마인 이슈를 하나의 pdf 로 내려받기"
+categories: ["tech"]
 date: 2019-07-29T16:49:45+09:00
 tags: ["ubuntu", "redmine"]
 draft: false

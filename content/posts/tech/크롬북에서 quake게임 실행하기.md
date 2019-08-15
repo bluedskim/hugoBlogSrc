@@ -1,5 +1,6 @@
 ---
 title: "픽셀북(모든 크롬북?)에서 Quake게임 실행하기"
+categories: ["tech"]
 date: 2019-08-13T18:28:39+09:00
 tags: ["pixelbook","chromebook","quake","WebGL"]
 draft: false

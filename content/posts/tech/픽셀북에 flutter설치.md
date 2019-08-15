@@ -1,5 +1,6 @@
 ---
 title: "픽셀북에 Flutter설치"
+categories: ["tech"]
 tags: ["pixelbook", "픽셀북", "flutter"]
 date: 2019-06-24T16:58:23+09:00
 draft: true

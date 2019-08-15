@@ -1,5 +1,6 @@
 ---
 title: "Pixelbook에서 Flutter로 앱 개발"
+categories: ["tech"]
 date: 2019-07-31T15:14:43+09:00
 tags: ["Pixelbook", "Flutter", "Visual Studio Code"]
 draft: false
