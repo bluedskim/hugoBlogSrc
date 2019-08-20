@@ -173,3 +173,28 @@ https://flutter.dev/docs/get-started/editor?tab=vscode
 https://flutter.dev/docs/get-started/test-drive?tab=vscode
 
 [![vs code](/images/IMG_20190802_120659_410.jpg)](/images/IMG_20190802_120659_410.jpg)
+
+* 아직 크롬북 리눅스 앱에서 scaling 문제로 화면이 흐릿하게 보이는 문제가 있다 -.- 다행히도 vs code 는 자체적으로  scaling 할 수 있는 옵션을 제공한다. vs code의 바로가기에 이 옵션을 추가면 쨍쨍한 화면을 볼 수 있다. /usr/share/applications/code.desktop 을 열어서  --force-device-scale-factor=2 인수를 추가한다
+
+		[Desktop Entry]
+		Name=Visual Studio Code
+		Comment=Code Editing. Redefined.
+		GenericName=Text Editor
+		Exec=/usr/share/code/code --force-device-scale-factor=2 --unity-launch %F
+		Icon=com.visualstudio.code
+		Type=Application
+		StartupNotify=false
+		StartupWMClass=Code
+		Categories=Utility;TextEditor;Development;IDE;
+		MimeType=text/plain;inode/directory;
+		Actions=new-empty-window;
+		Keywords=vscode;
+
+		X-Desktop-File-Install-Version=0.23
+
+		[Desktop Action new-empty-window]
+		Name=New Empty Window
+		Exec=/usr/share/code/code --force-device-scale-factor=2 --new-window %F
+		Icon=com.visualstudio.code
+
+* Flutter 공부를 하던 중 '나에게 이 기술이 꼭 필요할까' 라는 질문에 도달하게 되었다. 딱히 잘하는 것도 없으면서 하고 싶은 것은 참 많기는 한데  GUI(Graphical User Interface)쪽은 내 분야가 아니라는 생각이 들었다. 적어도 앞으로는. 이제는 선택과 집중이 필요할 때.
