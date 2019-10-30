@@ -1,5 +1,6 @@
 ---
 title: "Mirroring With Wget"
+categories: ["tech"]
 date: 2019-10-29T21:42:39+09:00
 draft: false
 tags: ["Mirroring", "Wget"]
