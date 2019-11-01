@@ -6,3 +6,5 @@ draft: true
 
 swap 영역이 너무 작게 잡혀 1G -.- swap 하느라 다운 될 지경
 cinnamon이 cpu를 많이 잡아 먹는다
+
+XFCE는 상당히 가볍다
