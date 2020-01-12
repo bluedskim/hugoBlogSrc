@@ -65,7 +65,7 @@ https://github.com/chrishantha/install-java
 
 1. 암호화 확장 기능 다운로드
 
-	암호화 확장 기능은 Java 개발시에만 필요한 기능이지만 Pixelbook에서 Java개발에 필요할거 같아 가이 설치했다. 
+	암호화 확장 기능은 Java 개발시에만 필요한 기능이지만 Pixelbook에서 Java개발에 필요할거 같아 같이 설치했다. 
 	jce_policy-8.zip 는 여기에서 다운로드 한다.
 	https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
 
