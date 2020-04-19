@@ -1,6 +1,8 @@
 ---
 title: "Pixelbook에서 Kdenlive로 동영상 편집하기"
 date: 2020-04-18T14:22:37+09:00
+featured_image: "images/Screenshot 2020-04-18 at 2.16.09 PM.png"
+tags: ["리눅스", "픽셀북"]
 draft: false
 ---
 
