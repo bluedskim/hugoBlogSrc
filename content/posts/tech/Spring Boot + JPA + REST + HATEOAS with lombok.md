@@ -2,6 +2,7 @@
 title: "Spring Boot + JPA + REST + HATEOAS + Lombok 그리고 VS code 환경에서 getter()를 찾지 못하는 문제"
 date: 2020-04-27T21:26:43+09:00
 featured_image: "images/SambandoApplication java - sambando - Code - OSS.png"
+tags: ["Spring Boot", "JPA", "VS code"]
 draft: false
 ---
 
