@@ -102,3 +102,7 @@ DefaultContentLanguage = "kr"
 #[languages.bg]
 
 # vim: ts=2 sw=2 et
+
+# syntax highlight
+pygmentsCodeFences = true
+#pygmentsStyle = api
