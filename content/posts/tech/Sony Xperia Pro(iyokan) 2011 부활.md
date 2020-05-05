@@ -15,7 +15,7 @@ draft: false
 * 사용자 앱 설치 공간이 500메가 정도 밖에 되지 않는다.
 * RAM도 역시 500메가 정도라 큰 프로그램을 돌릴 수 없다.
 * cpu가 1core 1Ghz라서 무거운 프로그램을 돌릴 수 없다.
-* 공식 지원 안드로이드 버전이 4.0.4 아이스크림 샌드위치(Ice Cream Sandwich) 로 상당히 낮다. 카카오톡도 설치되지 않는다.
+* 공식 지원 안드로이드 버전이 4.0.4 아이스크림 샌드위치(Ice Cream Sandwich) 로 상당히 낮다. 카카오톡도 설치되지 않는다(확인 결과 Kitkat에도 설치되기는 하는데 최신판으로 업그레이드 하라고 메시지가 뜬다. 최신판은 android 5 이상만 지원한다 -.- 텔레그램 씁시다)
 
 {{< figure src="/images/IMG_0731.JPG" caption="(Xperia Pro의 공식 마지막 안드로이드 버전 4.0.4 Ice Cream Sandwich)" >}}
 
