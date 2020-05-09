@@ -14,5 +14,5 @@ ReactJS 를 이미 경험해서인지 그렇게 어렵지는 않았다. 본격�
 * Back-End : Spring Boot + JPA + REST
 * Front-End : ReactJS + Material-UI
 * 주소 : 
-** 검색 결과 선택/복사 불가능한 버전 : http://samba.iptime.org/villaNameGen
-** 검색 결과 선택/복사 가능 : https://samba.iptime.org:8082/villaNameGen
+	* 검색 결과 선택/복사 불가능한 버전 : http://samba.iptime.org/villaNameGen
+	* 검색 결과 선택/복사 가능 : https://samba.iptime.org:8082/villaNameGen
