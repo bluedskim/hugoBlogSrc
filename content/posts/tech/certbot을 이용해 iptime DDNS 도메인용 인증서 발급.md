@@ -5,12 +5,12 @@ tags: ["certbot", "Spring Boot"]
 draft: false
 ---
 
-발급될지 살짝 의심했었지만 발급 안될 이유가 없더라.
+발급될지 잠시 의심했었지만 발급 안될 이유가 없더라.
 
 환경은 다음과 같다.
 
-* iptime 공유기 A104(version 10.03.8)
-* Odroid Ubuntu 14.04
+* iptime 공유기 A104(version 10.03.8) : 80포트는 외부에서 접속가능하도록 반드시 **port forwarding**해야 한다.
+* ODROID-U3(Ubuntu 14.04) : Spring Boot2 어플리케이션이 기동될 서버
 	* python 2.7 : 혹자는 3.6 이상 버전이 필요하다고 하지만 2.7에서도 정상 동작하였다
 	* Spring Boot 2
 
@@ -23,9 +23,11 @@ draft: false
 이 때 80 port에 서비스가 있다면 잠시 내려두자. 인증을 위해 certbot이 잠시 이 포트를 사용할 것이기 때문이다(인증서 갱신시에는 80포트가 불필요 하다)
 
 
-	$ sudo ./certbot-auto certonly -a standalone -d samba.iptime.org
+	$ sudo ./certbot-auto certonly \
+	-a standalone -d samba.iptime.org
 
-	...
+	...(중요하지 않은 메시지는 skip)...
+	
 	IMPORTANT NOTES:
 	- Congratulations! Your certificate and chain have been saved at:
 		/etc/letsencrypt/live/samba.iptime.org/fullchain.pem
@@ -48,7 +50,12 @@ draft: false
 Spring Boot2 Backe-end 에서는 pkcs12 형식의 인증서가 필요하다(고 한다. 보안쪽은 잘 모르므로 패스 -.-)
 여기서 지정한 암호는 SpringBoot설정파일에 넣을 것이므로 잘 메모해 두자.
 
-	$ sudo openssl pkcs12 -export -in /etc/letsencrypt/live/samba.iptime.org/fullchain.pem -inkey /etc/letsencrypt/live/samba.iptime.org/privkey.pem -out sambando.p12 -name bootalias -CAfile /etc/letsencrypt/live/samba.iptime.org/chain.pem -caname root -password pass:암호를지정하셔요
+	$ sudo openssl pkcs12 -export \
+	-in /etc/letsencrypt/live/samba.iptime.org/fullchain.pem \
+	-inkey /etc/letsencrypt/live/samba.iptime.org/privkey.pem \
+	-out sambando.p12 -name bootalias \
+	-CAfile /etc/letsencrypt/live/samba.iptime.org/chain.pem \
+	-caname root -password pass:암호를지정하셔요
 
 ##### SpringBoot2 설정(yaml파일)
 
