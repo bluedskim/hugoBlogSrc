@@ -1,7 +1,7 @@
 ---
 title: "ReactJS & Material UI를 이용한 빌라 이름 생성기"
 date: 2020-05-05T21:58:18+09:00
-tags: ["ReactJS", "Material-UI"]
+tags: ["ReactJS", "Material-UI", "Spring Boot"]
 draft: false
 ---
 
