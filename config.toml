@@ -26,6 +26,10 @@ hasCJKLanguage = true
   url = "https://www.instagram.com/bluedskim/"
 
 [[menu.navbar]]
+  name = "Tech"
+  url = "/categories/tech/"
+  
+[[menu.navbar]]
   name = "Samba"
   url = "/tags/samba/"
 
