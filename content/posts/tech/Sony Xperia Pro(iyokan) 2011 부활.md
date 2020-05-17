@@ -182,3 +182,7 @@ Kitkat 업그레이드 & 오버클럭 후 체감 속도는 2배 이상  빨라�
 {{< figure src="/images/IMG_E0736.JPG" caption="텔레그램" >}}
 
 {{< figure src="/images/IMG_E0735.JPG" caption="Juice SSH 터미널 앱" >}}
+
+{{< figure src="/images/nibbles.JPG" caption="지렁이 게임 Nibbles" >}}
+
+{{< figure src="/images/bastet.JPG" caption="Juice SSH 터미널 앱으로 서버 접속 후 터미널용 tetris clon인 bastet 실행" >}}
