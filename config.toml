@@ -22,9 +22,17 @@ hasCJKLanguage = true
   url = "http://bohemia.band"
 
 [[menu.sidebar]]
-  name = "instagram"
+  name = "Instagram"
   url = "https://www.instagram.com/bluedskim/"
 
+[[menu.sidebar]]
+  name = "Youtube Channel"
+  url = "https://www.youtube.com/user/bluedskim/videos"
+
+[[menu.sidebar]]
+  name = "Sound Cloud"
+  url = "https://soundcloud.com/bluedskim"
+  
 [[menu.navbar]]
   name = "Tech"
   url = "/categories/tech/"
