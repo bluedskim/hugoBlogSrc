@@ -74,3 +74,29 @@ https://chrome.google.com/webstore/detail/connection-forwarder/ahaijnonphgkgnkbk
 		ssh 본인아이디@크롬북아이피 -i id_rsa_chromebook -p 소스포트번호
 		
 이런 방법으로 crostini내의 모든 서비스에 다른 기기에서 접속가능하다. 
+
+#### Trouble shoot
+
+픽셀북을 초기화 하고 다시 sshd를 설치했는데 ssh 접속이 불가능하였다. 그래서  ssh status를 확인해 봤더니
+
+	penguin:~/.ssh$ sudo service ssh status
+	● ssh.service - OpenBSD Secure Shell server
+	   Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+	   Active: inactive (dead)
+	Condition: start condition failed at Sat 2020-09-12 13:14:45 KST; 14s ago
+			   └─ ConditionPathExists=!/etc/ssh/sshd_not_to_be_run was not met
+		 Docs: man:sshd(8)
+			   man:sshd_config(5)
+
+	Sep 12 12:23:07 penguin systemd[1]: Condition check resulted in OpenBSD Secure Shell server being skipped.
+	Sep 12 13:11:09 penguin systemd[1]: Condition check resulted in OpenBSD Secure Shell server being skipped.
+	Sep 12 13:14:45 penguin systemd[1]: Condition check resulted in OpenBSD Secure Shell server being skipped.
+
+이런 문제가 있다고 알려준다.
+
+	ConditionPathExists=!/etc/ssh/sshd_not_to_be_run was not met
+	
+이 때는 /etc/ssh/sshd_not_to_be_run 파일을 삭제하고 다시 기동하면 된다.
+
+	penguin:~$ sudo rm /etc/ssh/sshd_not_to_be_run
+	penguin:~$ sudo service ssh restart
