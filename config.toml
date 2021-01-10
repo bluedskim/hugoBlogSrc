@@ -118,3 +118,9 @@ DefaultContentLanguage = "kr"
 # syntax highlight
 pygmentsCodeFences = true
 #pygmentsStyle = api
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

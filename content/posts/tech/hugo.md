@@ -58,4 +58,34 @@ live reload 는 메모리상에서 이루어지고 실제 파일들 생성은 �
 
 ### 주의 사항
 
+#### 포스팅 시각 문제
+
 posting용 md에는 날짜를 타이핑해야 하는데 현재 시스템 시각보다 이후의 시각을 입력하면 render가 되지 않는다
+
+#### rss의 링크 문제
+
+설정에서 baseUrl을 / 로 설정한 경우 rss의 링크에 도메인 정보가 없어 링크를 타고 들어올 수가 없다.
+그렇다고 baseUrl을 실제 탑재할 서버의 링크로 변경하면 로컬에서 미리보기를 할 수가 없다. 이 때는 html 생성시 다음과 같이 명령 옵션으로 baseUrl을 변경한다.
+
+	hugo --baseURL="https://bluedskim.github.io/"
+	
+#### html 로 내용 작성 시 'raw HTML omitted' 오류 발생 문제
+
+* 증상 : 내용에 html로 작성한 부분에 해당 내용이 뜨지 않고 아래와 같은 html 코멘트가 삽입됨
+
+{{< highlight go "linenos=false" >}}
+<!-- raw HTML omitted --> 
+{{< / highlight >}}
+
+* 해결 방법 : 설정에 아래 내용 추가
+
+{{< highlight go "linenos=false" >}}
+[markup]
+  [markup.goldmark]
+	[markup.goldmark.renderer]
+	  unsafe = true
+{{< / highlight >}}		  
+
+
+
+
