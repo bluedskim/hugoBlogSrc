@@ -18,19 +18,23 @@ hasCJKLanguage = true
   page = "/:slug/"
 
 [[menu.sidebar]]
-  name = "Bohemia"
+  name = "- Github"
+  url = "https://github.com/bluedskim"
+  
+[[menu.sidebar]]
+  name = "- Bohemia"
   url = "http://bohemia.band"
 
 [[menu.sidebar]]
-  name = "Instagram"
+  name = "- Instagram"
   url = "https://www.instagram.com/bluedskim/"
 
 [[menu.sidebar]]
-  name = "Youtube Channel"
+  name = "- Youtube Channel"
   url = "https://www.youtube.com/user/bluedskim/videos"
 
 [[menu.sidebar]]
-  name = "Sound Cloud"
+  name = "- Sound Cloud"
   url = "https://soundcloud.com/bluedskim"
   
 [[menu.navbar]]
