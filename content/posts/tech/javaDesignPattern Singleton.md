@@ -1,5 +1,5 @@
 ---
-title: "Java Design Pattern - Singleton"
+title: "Java Design Pattern-01.Singleton"
 date: 2021-05-07T12:13:37+09:00
 categories: ["tech"]
 tags: ["java", "Design Pattern"]
@@ -8,7 +8,7 @@ draft: false
 
 (*Java 디자인 패턴 스터디 모집 중 : https://github.com/bluedskim/javaDesignPatterns*)
 
-# Singleton 패턴(김동석)
+# Singleton 패턴
 
 ![singleton 일러스트](https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-en-2x.png?id=05678e879d13f7f6a377 "singleton 일러스트")
 (출처 : [refactoring.guru : Singleton pattern](https://refactoring.guru/design-patterns/singleton))
