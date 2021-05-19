@@ -1,5 +1,5 @@
 ---
-title: "Java Design Pattern-03.Command"
+title: "Java 디자인 패턴-03.Command"
 date: 2021-05-12T00:48:24+09:00
 categories: ["tech"]
 tags: ["java", "Design Pattern"]
@@ -7,8 +7,6 @@ draft: false
 ---
 
 (*Java 디자인 패턴 스터디 모집 중 : https://github.com/bluedskim/javaDesignPatterns*)
-
-# Command 패턴
 
 ![Command Pattern : Real-World Analogy](https://refactoring.guru/images/patterns/content/command/command-comic-1-2x.png?id=47b3c00b2cfbda7157a1 "Command Pattern : Real-World Analogy")
 ([출처:https://refactoring.guru/design-patterns/command](https://refactoring.guru/design-patterns/command))

@@ -1,5 +1,5 @@
 ---
-title: "Java Design Pattern-05.Proxy"
+title: "Java 디자인 패턴-05.Proxy"
 date: 2021-05-18T12:23:26+09:00
 categories: ["tech"]
 tags: ["java", "Design Pattern"]
@@ -7,8 +7,6 @@ draft: false
 ---
 
 (*Java 디자인 패턴 스터디 모집 중 : https://github.com/bluedskim/javaDesignPatterns*)
-
-# Proxy 패턴
 
 ## 패턴 다이어그램
 

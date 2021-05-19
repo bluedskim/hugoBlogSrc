@@ -1,5 +1,5 @@
 ---
-title: "Java Design Pattern-02.Factory"
+title: "Java 디자인 패턴-02.Factory Method"
 date: 2021-05-11T00:00:00+09:00
 categories: ["tech"]
 tags: ["java", "Design Pattern"]
@@ -7,8 +7,6 @@ draft: false
 ---
 
 (*Java 디자인 패턴 스터디 모집 중 : https://github.com/bluedskim/javaDesignPatterns*)
-
-# Factory Method 패턴
 
 ![Factory design Pattern in Java – with examples](https://dotnettutorials.net/wp-content/uploads/2018/11/word-image-103.png "Factory design Pattern in Java – with examples")
 
