@@ -6,6 +6,9 @@ tags: ["java", "Design Pattern"]
 draft: true
 ---
 
+(*Java 디자인 패턴 스터디 모집 중 : https://github.com/bluedskim/javaDesignPatterns*)
+
+
 ## 패턴 다이어그램
 
 ![Design patterns: Template Method](https://steemitimages.com/DQmRbBeqNZykcGGhvat7hHyfZhqFu3ypgGm19L6FkuvbFCG/templatemethod.png "Design patterns: Template Method")

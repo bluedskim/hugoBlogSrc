@@ -3,8 +3,10 @@ title: "Java 디자인 패턴-07.State"
 date: 2021-05-24T08:46:28+09:00
 categories: ["tech"]
 tags: ["java", "Design Pattern"]
-draft: true
+draft: false
 ---
+
+(*Java 디자인 패턴 스터디 모집 중 : https://github.com/bluedskim/javaDesignPatterns*)
 
 ## 패턴 다이어그램
 
@@ -55,9 +57,7 @@ public class Package {
 	public String getNotifyGetterList() {
 		return currentState.getNotifyGetterList();
 	}
-}
-
-{{< / highlight >}}
+}{{< / highlight >}}
 1. State
 	* OrderedState.java
 {{< highlight java "linenos=table,hl_lines=0-0,linenostart=1" >}}
