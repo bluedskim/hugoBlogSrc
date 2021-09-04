@@ -26,3 +26,7 @@ CMD/CTRL + SHIFT + P 로 Command Palette 를 열고 settings json 이라고 타�
 editor.fontFamily 속성에서 Droid로 시작하는 폰트들을 다 삭제 하고 저장하자.
 
 이제 기역으로 시작하는 글자에 받침이 붙어도 깨지지 않는다.
+
+이 증상은 github.dev의 웹기반 vs code에서도 동일하다(그렇다면 MS가 운영하는 github에서도 리눅스 계열 서버를 사용한다는?).
+
+역시 해결 방법도 동일하다.
