@@ -54,3 +54,16 @@ VS code가 재시작되고 문제가 해결될 것이다.
 잠시 후 컴파일 오류가 모두 사라진 것을 확인할 수 있다.
 
 VS code에서 settings.gradle을 수정하면 Java Clean 보다 강력한 정리 작업을 하는 듯 하다.
+
+# 기타 팁
+
+## vs code에서 Javascript 유효성 검사 해제하기
+
+Javascript에서 오류가 너무 많이 발생하여 Java쪽의 더 심각한 오류를 찾기 힘들 때 Javascript 검증을 멈출 수 있다.
+
+설정에 추가해준다.
+
+	"html.validate.scripts": false
+	
+(참고 : https://stackoverflow.com/a/59057812/4766882)
+
