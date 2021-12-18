@@ -3,15 +3,14 @@
 baseurl = "/"
 languageCode = "ko-KR"
 title = "Do What You Want To Do"
-#theme = "hugo-theme-bootstrap4-blog"
-theme = "hugo-theme-learn"
+theme = "hugo-theme-bootstrap4-blog"
+#theme = "hugo-theme-learn"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
 # optionally override the site's footer with custom copyright text
 # copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
 googleAnalytics = "UA-108812986-1"
 disqusShortname = "bluedskim"
-enableRobotsTXT = true
 publishDir = "../bluedskim.github.io"
 hasCJKLanguage = true
 
@@ -130,10 +129,3 @@ pygmentsCodeFences = true
     [markup.goldmark.renderer]
       unsafe = true
 
-### hugo-theme-learn
-# For search functionality
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
-[sitemap]
-changefreq = "weekly"
-filename = "sitemap.xml"
