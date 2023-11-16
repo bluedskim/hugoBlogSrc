@@ -8,7 +8,7 @@ draft: false
 
 ## 32bit 노트북에 SparkyLinux 설치
 
-설치한 모델은 MSI vr420x이다. 11년 전에 구입한 모델
+설치한 모델은 MSI vr420x이다. 2008년에 구입한 모델
 
 * Intel Pentium Dual Core T2330 (1.6GHz / 1MB / FSB 533MHz)
 * 2GB DDR2 667Mhz
