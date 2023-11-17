@@ -4,20 +4,20 @@ date: 2023-11-17T17:38:10+09:00
 draft: false
 ---
 
-코드 리뷰를 받을 수 없는 솔로 개발자 혹은 사실상(?) 솔로 개발자의 필수품-정적 코드 분석기. VS code-Java에도 역시나 있다.
+코드 리뷰를 받을 수 없는 솔로 개발자 혹은 사실상(?) 솔로 개발자의 필수품-정적 코드 분석기, VS code-Java에도 역시나 있다.
 
-[VS Code 공식 확장 마켓](https://marketplace.visualstudio.com/search?term=java%20code%20quality&target=VSCode&category=Linters&sortBy=Installs)에서 가장 많은 설치 건수를 가지고 있는 2개의 확장 프로그램들을 재빨리 비교해보자.
+[VS Code 공식 확장 마켓](https://marketplace.visualstudio.com/search?term=java%20code%20quality&target=VSCode&category=Linters&sortBy=Installs)에서 가장 많은 설치 건수를 자랑하는 2개의 확장 프로그램들을 재빨리 비교해보자.
 
-## SornarLint
+## SonarLint
 * 그 유명한 SonarQube가 VS code 품으로
 * SonarSource의 모든 [rule](https://rules.sonarsource.com/java/)들을 그대로 사용가능
-* rule 제외 가능. 추가/수정은 불가능
+* 특정 rule 제외(무시) 가능. 추가/수정은 불가능
 * [마켓플레이스 보기](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode), [SonarLint 공식문서](https://docs.sonarsource.com/sonarlint/vs-code/)
 
 실제 동작 방식을 살펴보자.
 
 아래는 어떤 문제가 있는 소스다.
-그래서 해당 구문에 SonarLint가 노란색 물결무의 밑줄을 그어줬다.
+그래서 해당 구문에 SonarLint가 노란색 물결무늬 밑줄을 그어줬다.
 그 위에 마우스를 올리면 SonarLint의 경고 내용을 확인할 수 있다.
 
 ![htop](../../images/sonarlint_문제가-있는-소스.png)
