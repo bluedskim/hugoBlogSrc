@@ -1,7 +1,7 @@
 ---
 title: "PLANTUML - 텍스트 기반 다이어그램 드로잉 툴"
 date: 2023-11-18T00:03:09+09:00
-draft: true
+draft: false
 ---
 
 다이어그램을 그릴 수 있는 툴들은 많다.
