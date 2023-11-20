@@ -29,6 +29,8 @@ draft: false
 1. Timing diagram
 
 ## 📈 UML이 아닌 다이어그램
+이름은 PlantUML이지만 UML이외의 다이어그램을 더 많이 지원한다.
+
 1. JSON data
 1. YAML data
 1. EBNF (Extended Backus-Naur Form)
@@ -43,8 +45,6 @@ draft: false
 1. WBS (Work Breakdown Structure)
 1. Mathematical Notations (AsciiMath, JLaTeXMath)
 1. IE/ER (Information Engineering/Entity Relationship)
-
-(이름은 PlantUML이지만 UML이외의 다이어그램을 더 많이 지원한다)
 
 ## PlantUML의 장점은
 
@@ -62,7 +62,7 @@ PlantUML로 최고의 속도감을 느낄 수 있는 다이어그램은 시퀀�
 PPT로 작업한 시퀀스 다이어그램에 스윔레인을 추가해본 적이 있는가.
 이 작업이 얼마나 개발자를 좌절시키는지 해본 사람은 안다.
 
-이 작업을 PlangUML로 어떻게 하는지 동영상으로 확인해보자.
+이 작업을 PlantUML로 어떻게 하는지 동영상으로 확인해보자.
 <figure>
     <video src="../../images/PlantUML_sequence_diagram.webm" controls="controls" style="max-width: 730px;" autoplay muted controls loop>
     </video>
