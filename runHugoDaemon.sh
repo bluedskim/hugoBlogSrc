@@ -1,1 +1,1 @@
-hugo server --baseURL=localhost -D -p 8000
+hugo server --baseURL=localhost -D -p 7001
