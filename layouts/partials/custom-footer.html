@@ -1,0 +1,26 @@
+{{- $gaID := "" -}}
+{{- if isset .Site.Params "googleAnalyticsID" -}}
+  {{- $gaID = .Site.Params.googleAnalyticsID -}}
+{{- end -}}
+{{- if and (eq $gaID "") (isset .Site.Params "googleAnalyticsId") -}}
+  {{- $gaID = .Site.Params.googleAnalyticsId -}}
+{{- end -}}
+{{- if and (eq $gaID "") (isset .Site.Params "googleanalyticsid") -}}
+  {{- $gaID = index .Site.Params "googleanalyticsid" -}}
+{{- end -}}
+{{- if eq $gaID "" -}}
+  {{- with .Site.Params.googleAnalytics -}}
+    {{- $gaID = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $isProd := or (eq hugo.Environment "production") (eq (getenv "HUGO_ENV") "production") (eq .Site.Params.env "production") -}}
+{{- if and (ne $gaID "") $isProd -}}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $gaID }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ $gaID }}');
+</script>
+{{- end -}}
