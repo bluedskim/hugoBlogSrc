@@ -14,7 +14,7 @@
     <section id="homelinks">
       <ul>
         <li>
-            <a class="padding" href='{{ (cond (and (ne .Site.Params.landingPageURL nil) (.Site.IsMultiLingual)) .Site.Params.landingPageURL "/") }}'>{{ safeHTML (cond (ne .Site.Params.landingPageName nil) .Site.Params.landingPageName "<i class='fas fa-home'></i> Home") }}</a>
+            <a class="padding" href='{{ (cond (and (ne .Site.Params.landingPageURL nil) (hugo.IsMultilingual)) .Site.Params.landingPageURL "/") }}'>{{ safeHTML (cond (ne .Site.Params.landingPageName nil) .Site.Params.landingPageName "<i class='fas fa-home'></i> Home") }}</a>
         </li>
       </ul>
     </section>
@@ -48,11 +48,11 @@
       </section>
     {{end}}
 
-    {{ if or .Site.IsMultiLingual $showvisitedlinks }}
+    {{ if or hugo.IsMultilingual $showvisitedlinks }}
     <section id="prefooter">
       <hr/>
       <ul>
-      {{ if and .Site.IsMultiLingual (not .Site.Params.DisableLanguageSwitchingButton)}}
+      {{ if and hugo.IsMultilingual (not .Site.Params.DisableLanguageSwitchingButton)}}
         <li>
           <a class="padding">
             <i class="fas fa-language fa-fw"></i>
@@ -106,11 +106,13 @@
 {{ $currentFileUniqueID := "" }}
 {{ with $currentNode.File }}{{ $currentFileUniqueID = .UniqueID }}{{ end }}
  {{with .sect}}
+  {{ $sectFileUniqueID := "" }}
+  {{ with .File }}{{ $sectFileUniqueID = .UniqueID }}{{ end }}
   {{if and .IsSection (or (not .Params.hidden) $.showhidden)}}
     {{safeHTML .Params.head}}
     <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dd-item
         {{if .IsAncestor $currentNode }}parent{{end}}
-        {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}
+        {{if eq $sectFileUniqueID $currentFileUniqueID}}active{{end}}
         {{if .Params.alwaysopen}}parent{{end}}
         ">
       <a href="{{.RelPermalink}}">
@@ -148,7 +150,7 @@
     </li>
   {{else}}
     {{ if not .Params.Hidden }}
-      <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dd-item {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}">
+      <li data-nav-id="{{.RelPermalink}}" title="{{.Title}}" class="dd-item {{if eq $sectFileUniqueID $currentFileUniqueID}}active{{end}}">
         <a href="{{ .RelPermalink}}">
         {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
         {{ if $showvisitedlinks}}<i class="fas fa-check read-icon"></i>{{end}}
