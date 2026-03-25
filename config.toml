@@ -4,7 +4,7 @@ baseurl = "/"
 languageCode = "ko-KR"
 title = "Do What You Want To Do"
 #theme = "hugo-theme-bootstrap4-blog"
-theme = "hugo-theme-learn"
+theme = "hugo-theme-relearn-main"
 # number of posts to show on home/category/tag pages (Default: 10)
 [pagination]
 pagerSize = 5
@@ -21,99 +21,75 @@ hasCJKLanguage = true
   post = "/:year/:month/:title/"
   page = "/:slug/"
 
-[[menu.sidebar]]
-  name = "- Github"
-  url = "https://github.com/bluedskim"
-  
-[[menu.sidebar]]
-  name = "- Bohemia"
-  url = "http://bohemia.band"
-
-[[menu.sidebar]]
-  name = "- Instagram"
-  url = "https://www.instagram.com/bluedskim/"
-
-[[menu.sidebar]]
-  name = "- Youtube Channel"
-  url = "https://www.youtube.com/user/bluedskim/videos"
-
-[[menu.sidebar]]
-  name = "- Sound Cloud"
-  url = "https://soundcloud.com/bluedskim"
-  
-[[menu.navbar]]
+[[menu.shortcuts]]
   name = "Tech"
   url = "/categories/tech/"
-  
-[[menu.navbar]]
+  weight = 10
+
+[[menu.shortcuts]]
   name = "Samba"
   url = "/tags/samba/"
+  weight = 20
 
-[[menu.navbar]]
+[[menu.shortcuts]]
   name = "음악"
   url = "/categories/음악/"
+  weight = 30
 
-[[menu.navbar]]
+[[menu.shortcuts]]
   name = "일상사"
   url = "/categories/일상사/"
+  weight = 40
+
+[[menu.shortcuts]]
+  name = "- Github"
+  url = "https://github.com/bluedskim"
+  weight = 50
+
+[[menu.shortcuts]]
+  name = "- Bohemia"
+  url = "http://bohemia.band"
+  weight = 60
+
+[[menu.shortcuts]]
+  name = "- Instagram"
+  url = "https://www.instagram.com/bluedskim/"
+  weight = 70
+
+[[menu.shortcuts]]
+  name = "- Youtube Channel"
+  url = "https://www.youtube.com/user/bluedskim/videos"
+  weight = 80
+
+[[menu.shortcuts]]
+  name = "- Sound Cloud"
+  url = "https://soundcloud.com/bluedskim"
+  weight = 90
 
 # Theme variables
 #
 [params]
   # Preferred GA4 Measurement ID (set this to enable modern Google Analytics)
   googleAnalyticsID = "G-3QTEZE6PDE"
-  # Site author
-  author = "Dennis"
 
-  # Description/subtitle for homepage (can be Markdown)
-  description = "bluedskim@gmail.com"
-
-  # Show header (default: true)
-  #header_visible = true
-
-  # Format dates with Go's time formatting
-  #date_format = "Mon Jan 02, 2006"
-  date_format = "2006-01-02"
-
-  # verification string for Google Webmaster Tools
-  #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
-
-  # verification string for Bing Webmaster Tools
-  #bing_verify_meta = "3DA353059F945D1AA256B1CD8A3DA847"
-
-  # verification string for Yandex Webmaster Tools
-  #yandex_verify_meta = "66b077430f35f04a"
-
-  # Optionally display a message about the site's use of cookies, which may be
-  # required for your site in the European Union. Set the parameter below to a
-  # page where the user can get more information about cookies, either on your
-  # site or externally, for example:
-  #cookie_consent_info_url = "/cookie-information/"
-  #cookie_consent_info_url = "http://cookiesandyou.com"
-
-  # show sharing icons on pages/posts (default: true)
-  sharingicons = false
-
-  # Display post summaries instead of content in list templates (default: true)
-  #truncate = true
-
-  # Disable the use of sub-resource integrity on CSS/JS assets (default: false)
-  # Useful if you're using a CDN or other host where you can't control cache headers
-  #disable_sri = false
+  linkTitle = "Do What You Want To Do"
+  dateFormat = "2006-01-02"
+  disableLandingPageButton = false
+  disableShortcutsTitle = false
+  showVisitedLinks = true
+  collapsibleMenu = true
+  sidebarmenus = [
+    { type = "page", identifier = "main" },
+    { type = "menu", identifier = "shortcuts", disableTitle = false }
+  ]
+  themeVariant = [
+    { identifier = "relearn-auto", name = "Auto", auto = ["relearn-light", "relearn-dark"] },
+    { identifier = "learn", name = "Learn" }
+  ]
   custom_css = ["custom.css"]
 
-  [params.sidebar]
-    # Optional about block for sidebar (can be Markdown)
-    about = "잡다한것들을 기록합니다. something to remember"
-
-    # How many posts to show on the sidebar (Default: 5)
-    #num_recent_posts = 2
-
-  [params.social]
-    # Optional, used for attribution in Twitter cards (ideally not a person
-    # for example: nytimes, flickr, NatGeo, etc).
-    # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "username"
+[author]
+name = "Dennis"
 
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
@@ -134,10 +110,10 @@ pygmentsCodeFences = true
     [markup.goldmark.renderer]
       unsafe = true
 
-### hugo-theme-learn
-# For search functionality
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+home = [ "html", "rss", "print" ]
+section = [ "html", "rss", "print" ]
+page = [ "html", "print" ]
 [sitemap]
 changefreq = "weekly"
 filename = "sitemap.xml"
