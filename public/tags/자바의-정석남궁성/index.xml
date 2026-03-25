@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>자바의 정석(남궁성) :: Tag :: Do What You Want To Do</title>
+    <link>/tags/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D%EB%82%A8%EA%B6%81%EC%84%B1/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Fri, 17 Dec 2021 22:31:51 +0900</lastBuildDate>
+    <atom:link href="/tags/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D%EB%82%A8%EA%B6%81%EC%84%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>자바의 정석 8장. 예외처리</title>
+      <link>/posts/tech/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D_8%EC%9E%A5.-%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/index.html</link>
+      <pubDate>Fri, 17 Dec 2021 22:31:51 +0900</pubDate>
+      <guid>/posts/tech/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D_8%EC%9E%A5.-%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/index.html</guid>
+      <description>8장. 예외처리 💡 [요청하는 자 : &#34;나는 이 작업을 어떻게 하는지 몰라. 하지만 너는 알고 있지. 나 대신 이 일을 해줄래?&#34; 요청받는 자 : &#34;나도 도와 주고 싶어. 그래서 시도해봤지. 하지만 이러한 문제가 있어서 작업을 마칠 수 없었어.&#34; 👉 이 때 예외를 던진다](https://softwareengineering.stackexchange.com/a/323507) 💡 [Exception이 없던 시절 어떻게 예외처리를 했을까? 반환값을 일일이 체크하는 수 밖에 없었다. 예를 들어 개수를 구하는 함수에서 음수가 반환된다면 예외로 한다던지, 정수를 반환하는 경우라면 가장 큰 정수(혹은 가장 작은 정수)를 반환하기로 약속을 한다던지](https://softwareengineering.stackexchange.com/a/323507) 1.1 프로그램 오류 p.414 컴파일 에러 : 컴파일 시에 발생하는 에러 런타임 에러 : 실행 시에 발생하는 에러 논리적 에러 : 실행은 되지만 의도와 다르게 동작하는 것</description>
+    </item>
+    <item>
+      <title>자바의 정석 7장. 객체지향 프로그래밍 II</title>
+      <link>/posts/tech/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D_7.7%EC%9E%A5.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-ii/index.html</link>
+      <pubDate>Tue, 07 Dec 2021 23:11:03 +0900</pubDate>
+      <guid>/posts/tech/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D_7.7%EC%9E%A5.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-ii/index.html</guid>
+      <description>자바의 정석(남궁성) 독후감 형식의 글입니다&#xA;7장. 객체지향 프로그래밍 II 1.1상속의 정의와 장점 재사용성을 높히고 코드의 중복을 제거하여 생산성과 유지보수성을 높힌다. 왜 상속에 해당하는 키워드가 inherit이 아니고 extends인가 상속을 거듭할수록 상속받는 클래스의 멤버 개수가 점점 늘어나기 때문</description>
+    </item>
+    <item>
+      <title>자바의 정석 6장. 객체지향 프로그래밍 I</title>
+      <link>/posts/tech/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D_6.6%EC%9E%A5.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-i/index.html</link>
+      <pubDate>Mon, 06 Dec 2021 11:33:01 +0900</pubDate>
+      <guid>/posts/tech/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D_6.6%EC%9E%A5.-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-i/index.html</guid>
+      <description>자바의 정석(남궁성) 독후감 형식의 글입니다&#xA;6장. 객체지향 프로그래밍1 1. 객체지향언어 1.2 객체지향언어 현실 세계를 프로그램의 세계에서 표현하기 위한 방법 p.230&#xA;코드의 관리가 용이하다 코드의 재사용성이 높다 신뢰성이 높은 프로그래밍을 가능하게 한다. p.231 일단 프로그램을 기능적으로 완성한 다음 어떻게 하면 보다 객체지향적으로 코드를 개선할 수 있을지를 고민하여 점차 개선해 나가는 것이 좋다 → 리팩터링</description>
+    </item>
+  </channel>
+</rss>

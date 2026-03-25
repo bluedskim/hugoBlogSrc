@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html id="R-html" lang="ko-KR" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=7001&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.152.2">
+    <meta name="generator" content="Relearn 9.0.3+36307e4ed23582638ab689240ac7b427217803ee">
+    <meta name="description" content="제목 : 프로그래밍의 정석 - 프로그래머가 반드시 알아야 할 101가지 원리 원칙 저자 : 우에다 이사오 출퇴근시 읽을 가벼운 IT교양서를 찾던 중 발견한 책. 하지만 가볍지는 않다. 많이 생각하면서 읽지 않으면 의미가 없다.
+단점 : 이미지 스캔형식의 책이라 형광펜으로 문구 표시 불가 -.- 이럴거면 왜 전자책으로 만드셨나요?
+소프트웨어의 4가지 본질 : 복잡성, 동조성(현실세계를 투영), 가변성, 비가시성
+이러한 성질 때문에 만병통치약은 있을 수 없다.
+설계 : 개발과정에서 작성된 소스코드 제품 : 빌드 결과물 프로그래밍 언어 : 설계 표기법(what, how) 문서 : why 1.3 코드는 반드시 변경된다.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="프로그래밍의 정석 메모 :: Do What You Want To Do">
+    <meta name="twitter:description" content="제목 : 프로그래밍의 정석 - 프로그래머가 반드시 알아야 할 101가지 원리 원칙 저자 : 우에다 이사오 출퇴근시 읽을 가벼운 IT교양서를 찾던 중 발견한 책. 하지만 가볍지는 않다. 많이 생각하면서 읽지 않으면 의미가 없다.
+단점 : 이미지 스캔형식의 책이라 형광펜으로 문구 표시 불가 -.- 이럴거면 왜 전자책으로 만드셨나요?
+소프트웨어의 4가지 본질 : 복잡성, 동조성(현실세계를 투영), 가변성, 비가시성
+이러한 성질 때문에 만병통치약은 있을 수 없다.
+설계 : 개발과정에서 작성된 소스코드 제품 : 빌드 결과물 프로그래밍 언어 : 설계 표기법(what, how) 문서 : why 1.3 코드는 반드시 변경된다.">
+    <meta property="og:url" content="//localhost:7001/posts/tech/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-%EC%A0%95%EC%84%9D-%EB%A9%94%EB%AA%A8/index.html">
+    <meta property="og:site_name" content="Do What You Want To Do">
+    <meta property="og:title" content="프로그래밍의 정석 메모 :: Do What You Want To Do">
+    <meta property="og:description" content="제목 : 프로그래밍의 정석 - 프로그래머가 반드시 알아야 할 101가지 원리 원칙 저자 : 우에다 이사오 출퇴근시 읽을 가벼운 IT교양서를 찾던 중 발견한 책. 하지만 가볍지는 않다. 많이 생각하면서 읽지 않으면 의미가 없다.
+단점 : 이미지 스캔형식의 책이라 형광펜으로 문구 표시 불가 -.- 이럴거면 왜 전자책으로 만드셨나요?
+소프트웨어의 4가지 본질 : 복잡성, 동조성(현실세계를 투영), 가변성, 비가시성
+이러한 성질 때문에 만병통치약은 있을 수 없다.
+설계 : 개발과정에서 작성된 소스코드 제품 : 빌드 결과물 프로그래밍 언어 : 설계 표기법(what, how) 문서 : why 1.3 코드는 반드시 변경된다.">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Posts">
+    <meta property="article:published_time" content="2021-02-08T23:06:54+09:00">
+    <meta property="article:modified_time" content="2021-02-08T23:06:54+09:00">
+    <meta itemprop="name" content="프로그래밍의 정석 메모 :: Do What You Want To Do">
+    <meta itemprop="description" content="제목 : 프로그래밍의 정석 - 프로그래머가 반드시 알아야 할 101가지 원리 원칙 저자 : 우에다 이사오 출퇴근시 읽을 가벼운 IT교양서를 찾던 중 발견한 책. 하지만 가볍지는 않다. 많이 생각하면서 읽지 않으면 의미가 없다.
+단점 : 이미지 스캔형식의 책이라 형광펜으로 문구 표시 불가 -.- 이럴거면 왜 전자책으로 만드셨나요?
+소프트웨어의 4가지 본질 : 복잡성, 동조성(현실세계를 투영), 가변성, 비가시성
+이러한 성질 때문에 만병통치약은 있을 수 없다.
+설계 : 개발과정에서 작성된 소스코드 제품 : 빌드 결과물 프로그래밍 언어 : 설계 표기법(what, how) 문서 : why 1.3 코드는 반드시 변경된다.">
+    <meta itemprop="datePublished" content="2021-02-08T23:06:54+09:00">
+    <meta itemprop="dateModified" content="2021-02-08T23:06:54+09:00">
+    <meta itemprop="wordCount" content="198">
+    <title>프로그래밍의 정석 메모 :: Do What You Want To Do</title>
+    <link href="//localhost:7001/posts/tech/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-%EC%A0%95%EC%84%9D-%EB%A9%94%EB%AA%A8/index.html" rel="canonical" type="text/html" title="프로그래밍의 정석 메모 :: Do What You Want To Do">
+    <link href="/css/auto-complete/auto-complete.min.css?1774393347" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1774393347" defer></script>
+    <script src="/js/search-lunr.js?1774393347" defer></script>
+    <script src="/js/search.js?1774393347" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.en.js?1774393347";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1774393347" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1774393347" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1774393347" defer></script>
+    <script src="/js/lunr/lunr.ko.min.js?1774393347" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['ko'];
+    </script>
+    <link href="/fonts/fontawesome/css/all.min.css?1774393347" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1774393347" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1774393347" rel="stylesheet">
+    <link href="/css/theme.css?1774393347" rel="stylesheet">
+    <link href="/css/format-print.css?1774393347" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/posts\/tech\/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-%EC%A0%95%EC%84%9D-%EB%A9%94%EB%AA%A8\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='\/\/localhost:7001';
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-auto', 'learn' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+  </head>
+  <body class="mobile-support print" data-origin="/posts/tech/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-%EC%A0%95%EC%84%9D-%EB%A9%94%EB%AA%A8/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">Do What You Want</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/posts/index.html"><span itemprop="name">Posts</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">프로그래밍의 정석 메모</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-print default-animation" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/posts/tech/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98-%EC%A0%95%EC%84%9D-%EB%A9%94%EB%AA%A8/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/posts/tech/taurus-%EB%B6%80%ED%95%98-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%88%B4-%EB%8D%B0%EB%AA%A8/index.html" title="Taurus 부하 테스트 툴 데모 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/posts/tech/karate-restful-api-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4%EA%B8%B0%EB%B0%98-%EC%9E%90%EB%8F%99%ED%99%94-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%8D%B0%EB%AA%A8/index.html" title="Karate, RESTful API 시나리오기반 자동화 테스트 데모 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable posts" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="프로그래밍의-정석-메모">프로그래밍의 정석 메모</h1>
+
+<ul>
+<li>제목 : 프로그래밍의 정석 - 프로그래머가 반드시 알아야 할 101가지 원리 원칙</li>
+<li>저자 : 우에다 이사오</li>
+</ul>
+<p>출퇴근시 읽을 가벼운 IT교양서를 찾던 중 발견한 책. 하지만 가볍지는 않다. 많이 생각하면서 읽지 않으면 의미가 없다.</p>
+<ul>
+<li>
+<p>단점 : 이미지 스캔형식의 책이라 형광펜으로 문구 표시 불가 -.- 이럴거면 왜 전자책으로 만드셨나요?</p>
+</li>
+<li>
+<p>소프트웨어의 4가지 본질 : 복잡성, 동조성(현실세계를 투영), 가변성, 비가시성</p>
+</li>
+</ul>
+<p>이러한 성질 때문에 만병통치약은 있을 수 없다.</p>
+<ul>
+<li>설계 : 개발과정에서 작성된 소스코드</li>
+<li>제품 : 빌드 결과물</li>
+<li>프로그래밍 언어 : 설계 표기법(what, how)</li>
+<li>문서 : why</li>
+</ul>
+<p>1.3 코드는 반드시 변경된다.</p>
+<p>버그 수정을 위해, 변경된 요구사항을 수용하기 위해.
+고로 변경에 강한 코드를 작성해야 한다. 그러기 위해서는 읽기 쉬운 코드를 작성해야 한다.</p>
+<p>2.1 KISS</p>
+<ul>
+<li>KISS(Keep IT Simple, Stupid) : 코드는 단순하게 유지한다(수정 용이성을 위해), &ldquo;가정은 가능한 적어야 하며, 피할 수만 있다면 절대로 하지 말아야 한다.&rdquo;</li>
+<li>DRY(Don&rsquo;t Repeat Yourself) : copy &amp; paste 하지 말자</li>
+<li>YAGNI(You Ain&rsquo;t Gonna Need It) : 확장성을 고려해서 미리 작업하지 말자</li>
+<li>PIE(Programm Intently and Expressively) : 의도를 표현해서 프로그래밍하자 : 읽기 쉬운 코드</li>
+<li>SLAP(Single Layer of Abastraction Principle) : 추상화 수준을 통일하자</li>
+<li>OCP(Open-Closed Principal) : 개방-폐쇄의 원칙을 준수하자(확장에 대해서는 열려있고 수정에 대해서는 닫혀있다), 다형성</li>
+<li>명명이 중요하다 : 이름에 많은 정보를 담도록 한다. 오해될 수 있는 이름을 삼가한다. 이름은 발음이 가능하여야 한다.</li>
+</ul>
+
+  <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> 2021-02-08
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1774393347" defer></script>
+    <script src="/js/theme.js?1774393347" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>

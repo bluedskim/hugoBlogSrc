@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reaper :: Tag :: Do What You Want To Do</title>
+    <link>/tags/reaper/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Wed, 10 Jul 2019 17:24:26 +0900</lastBuildDate>
+    <atom:link href="/tags/reaper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pixelbook에서 Reaper사용하기</title>
+      <link>/posts/%EC%9D%8C%EC%95%85/pixelbook%EC%97%90%EC%84%9C-reaper%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/index.html</link>
+      <pubDate>Wed, 10 Jul 2019 17:24:26 +0900</pubDate>
+      <guid>/posts/%EC%9D%8C%EC%95%85/pixelbook%EC%97%90%EC%84%9C-reaper%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/index.html</guid>
+      <description>크롬북 리눅스 앱에서 오디오 재생을 지원한것은 얼마되지 않았다. (OS버전 74부터 지원)&#xA;주위에서 리눅스를 쓰는 사람도 없지만 쓴다고 해도 오디오 편집까지 하는 경우를 보지 못했다. 맥의 Logic이나 윈도우의 Cubase, Ableton Live같은 멋진 리눅스용 멀티트랙 녹음 편집 프로그램은 없는 듯 하다&#xA;신기하게도 Reaper 는 리눅스용 무설치 버전을 제공하고 있다. 개발자 중에 리눅스 매니아가 있는 듯&#xA;http://reaper.fm/download.php#linux_download&#xA;[![Reaper](/images/Screenshot 2019-07-10 at 5.13.23 PM.png)](/images/Screenshot 2019-07-10 at 5.13.23 PM.png)&#xA;중요한거 하나! 터미널에서 reaper실행 파일을 바로 실행할 수 있는데 아래처럼 조그많게 떠서 알아 볼 수가 없다 -.-</description>
+    </item>
+  </channel>
+</rss>
