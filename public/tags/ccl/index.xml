@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ccl :: Tag :: Do What You Want To Do</title>
-    <link>/tags/ccl/index.html</link>
+    <link>//localhost:7001/tags/ccl/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Wed, 26 Dec 2007 14:31:00 +0900</lastBuildDate>
-    <atom:link href="/tags/ccl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:7001/tags/ccl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>조PD Free Music2 : CC Korea Hope Day 에서 조PD가 새 노래를 발표했습니다.</title>
-      <link>/posts/%EC%9D%8C%EC%95%85/%EC%A1%B0pd-free-music2--cc-korea-hope-day-%EC%97%90%EC%84%9C-%EC%A1%B0pd%EA%B0%80-%EC%83%88-%EB%85%B8%EB%9E%98%EB%A5%BC-%EB%B0%9C%ED%91%9C%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4./index.html</link>
+      <link>//localhost:7001/posts/%EC%9D%8C%EC%95%85/%EC%A1%B0pd-free-music2--cc-korea-hope-day-%EC%97%90%EC%84%9C-%EC%A1%B0pd%EA%B0%80-%EC%83%88-%EB%85%B8%EB%9E%98%EB%A5%BC-%EB%B0%9C%ED%91%9C%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4./index.html</link>
       <pubDate>Wed, 26 Dec 2007 14:31:00 +0900</pubDate>
-      <guid>/posts/%EC%9D%8C%EC%95%85/%EC%A1%B0pd-free-music2--cc-korea-hope-day-%EC%97%90%EC%84%9C-%EC%A1%B0pd%EA%B0%80-%EC%83%88-%EB%85%B8%EB%9E%98%EB%A5%BC-%EB%B0%9C%ED%91%9C%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4./index.html</guid>
+      <guid>//localhost:7001/posts/%EC%9D%8C%EC%95%85/%EC%A1%B0pd-free-music2--cc-korea-hope-day-%EC%97%90%EC%84%9C-%EC%A1%B0pd%EA%B0%80-%EC%83%88-%EB%85%B8%EB%9E%98%EB%A5%BC-%EB%B0%9C%ED%91%9C%ED%96%88%EC%8A%B5%EB%8B%88%EB%8B%A4./index.html</guid>
       <description>CC(Creative Commons) Korea Hope Day 에서 조PD가 새 노래를 발표했습니다.&#xA;주제는 Creative Commons 입니다.&#xA; &lt;노래 : 조PD Free Music2, 영상 :이종은외 플리커 CC 라이선스 사진&gt; Creative Commons 가 뭘까요?&#xA;글자대로 번역하면 &#39;창조적인 공유자원&#39; 쯤 되겠습니다.&#xA;그런데 저는 창조를 &#39;위한&#39; 공유자원으로 이해하고 있습니다&#xA;즉, 하나의 창작물이 또 다른 창작물을 만들기 위한 재료, 부품으로 사용되거나 &#xA;아이디어, 동기로 작용할 때 이것을 Creative Commons라 부를 수 있겠지요.</description>
     </item>
   </channel>

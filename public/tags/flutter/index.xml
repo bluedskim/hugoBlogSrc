@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flutter :: Tag :: Do What You Want To Do</title>
-    <link>/tags/flutter/index.html</link>
+    <link>//localhost:7001/tags/flutter/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Wed, 31 Jul 2019 15:14:43 +0900</lastBuildDate>
-    <atom:link href="/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:7001/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pixelbook에서 Flutter로 앱 개발</title>
-      <link>/posts/tech/pixelbook%EC%97%90%EC%84%9C-flutter%EB%A1%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C_1/index.html</link>
+      <link>//localhost:7001/posts/tech/pixelbook%EC%97%90%EC%84%9C-flutter%EB%A1%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C_1/index.html</link>
       <pubDate>Wed, 31 Jul 2019 15:14:43 +0900</pubDate>
-      <guid>/posts/tech/pixelbook%EC%97%90%EC%84%9C-flutter%EB%A1%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C_1/index.html</guid>
+      <guid>//localhost:7001/posts/tech/pixelbook%EC%97%90%EC%84%9C-flutter%EB%A1%9C-%EC%95%B1-%EA%B0%9C%EB%B0%9C_1/index.html</guid>
       <description>픽셀북으로 안드로이드 개발을 편하게 할 수 있다고 해서 시도하고 있는데 편하다고 하는 이유는 픽셀북에서 바로 안드로이드 앱 화면을 띄울 수 있기 때문인것 같다. 그러나 그러기 위해서는 픽셀북을 Developer Mode 로 변경해야 하는데 이렇게 하면 3가지 문제가 있다.&#xA;보안이 해제된다 : 무섭다 시스템이 불안해진다 : 짜증 나다가 화가 나다가 최신 노트북 가격을 비교 하고 있는 나를 발견하면 구글이 미워지기 시작한다 cold 부팅 시 마다 Developer Mode 로 진입해줘야 한다 : 귀찮다 그래서 약간(?) 불편하지만 실제 폰으로 테스트 하는 방법을 쓰기로 했다.</description>
+    </item>
+    <item>
+      <title>픽셀북에 Flutter설치</title>
+      <link>//localhost:7001/posts/tech/%ED%94%BD%EC%85%80%EB%B6%81%EC%97%90-flutter%EC%84%A4%EC%B9%98/index.html</link>
+      <pubDate>Mon, 24 Jun 2019 16:58:23 +0900</pubDate>
+      <guid>//localhost:7001/posts/tech/%ED%94%BD%EC%85%80%EB%B6%81%EC%97%90-flutter%EC%84%A4%EC%B9%98/index.html</guid>
+      <description>모바일 앱 개발할 때 flutter가 편하다고 해서 픽셀북에서 시도 해보고 있다.&#xA;참고 https://medium.com/snapp-mobile/turning-the-pixelbook-into-a-great-flutter-development-laptop-db29105cc789 ) java 는 이미 설치되어 있다고 가정한다 리눅스용 Flutter SDK다운로드 https://flutter.dev/docs/get-started/install/linux&#xA;압축 해제 tar xf ~/flutter_linux_v1.5.4-hotfix.2-stable.tar.xz 실행 path에 추가 : ~/.bashrc에 추가한다. export PATH=&#34;/home/bluedskim/utils/flutter/bin:$PATH&#34; 환경을 다시 읽어온다. $ source ~/.bashrc Android Studio 설치 이미 설치되어 있다(여기서 설치 https://developer.android.com/studio/#downloads)</description>
     </item>
   </channel>
 </rss>

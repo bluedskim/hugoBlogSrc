@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html id="R-html" lang="ko-KR" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=7001&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.152.2">
@@ -12,7 +12,7 @@ Looks like you got wrong JDBC drivers loaded by the JVM - for 1.4 try ojdbc14.ja
     <meta name="twitter:title" content="Java &#43; Oracle xmltype insert 시 문제 : Non supported character set : oracle-character-set-840 :: Do What You Want To Do">
     <meta name="twitter:description" content="1. 해결책[1] JDBC Driver가 한글 지원을 하지 않아서 나는 에러입니다. JDBC Driver중에 한글 패치가 된 드라이버가 있습니다. 만약 없다면 classes12.zip과 더불어 제공되는 nls_charset12.zip을 클래스패스에 추가해 주면 해결 될겁니다. 패치된 JDBC Driver는 classes12_1.zip이라는 이름으로 웹 자료실에서 배포되는 곳이 있을겁니다. 한번 찾아보세요. 출처 : http://www.javajigi.net/servlet/JMBoard?tablename=xml_qna&amp;mode=view&amp;boardpage=16&amp;searchword=&amp;searchscope=&amp;category=&amp;no=2 2. 해결책[2]
 Looks like you got wrong JDBC drivers loaded by the JVM - for 1.4 try ojdbc14.jar (and they better be 9.2.0.2.) and verify that no other drivers are on CLASSPATH. (클래스패스에 다른 jdbc 드라이버가 있는지 확인해라.) 그런데 ~/jre/lib/ext/ 는 디폴트 classpath이므로 여기도 반드시 확인해야 한다. 시스템의 ~/jre/lib/ext/에 classes12.jar 가 있었다. ~/jre/lib/ext/의 classes12.jar 를 없애면 해결할 수 있지만 다른 java 어플이 사용하고 있을수도 있기 때문에 삭제하지 않았고 ~/jre/lib/ext/ 에 nls_charset12.jar 를 추가하여 해결함. 출처 : http://forums.oracle.com/forums/thread.jspa?messageID=413418&amp;#413418 출처 : http://orafaq.com/usenet/comp.databases.oracle.misc/2005/02/14/0310.htm 제발 디폴트 클래스패스 혹은 시스템 클래스패스에는 진짜 필수적인 라이브러리만 두자. 안그러면 다른 개발자들 고생한다. 특히 다음 차수 프로젝트 하는 개발자들 눈물흘리며 생고생 한다. ㅠㅠ 그리고 “해결책[2]” 는 네이버에 물어봐도 아무도 안가르쳐준다. 구글에서 간신히 찾았음.">
-    <meta property="og:url" content="/posts/software-engineering/java-&#43;-oracle-xmltype-insert-%EC%8B%9C-%EB%AC%B8%EC%A0%9C--non-supported-character-set--oracle-character-set-840/index.html">
+    <meta property="og:url" content="//localhost:7001/posts/software-engineering/java-&#43;-oracle-xmltype-insert-%EC%8B%9C-%EB%AC%B8%EC%A0%9C--non-supported-character-set--oracle-character-set-840/index.html">
     <meta property="og:site_name" content="Do What You Want To Do">
     <meta property="og:title" content="Java &#43; Oracle xmltype insert 시 문제 : Non supported character set : oracle-character-set-840 :: Do What You Want To Do">
     <meta property="og:description" content="1. 해결책[1] JDBC Driver가 한글 지원을 하지 않아서 나는 에러입니다. JDBC Driver중에 한글 패치가 된 드라이버가 있습니다. 만약 없다면 classes12.zip과 더불어 제공되는 nls_charset12.zip을 클래스패스에 추가해 주면 해결 될겁니다. 패치된 JDBC Driver는 classes12_1.zip이라는 이름으로 웹 자료실에서 배포되는 곳이 있을겁니다. 한번 찾아보세요. 출처 : http://www.javajigi.net/servlet/JMBoard?tablename=xml_qna&amp;mode=view&amp;boardpage=16&amp;searchword=&amp;searchscope=&amp;category=&amp;no=2 2. 해결책[2]
@@ -30,35 +30,35 @@ Looks like you got wrong JDBC drivers loaded by the JVM - for 1.4 try ojdbc14.ja
     <meta itemprop="wordCount" content="157">
     <meta itemprop="keywords" content="Software Engineering">
     <title>Java &#43; Oracle xmltype insert 시 문제 : Non supported character set : oracle-character-set-840 :: Do What You Want To Do</title>
-    <link href="/posts/software-engineering/java-+-oracle-xmltype-insert-%EC%8B%9C-%EB%AC%B8%EC%A0%9C--non-supported-character-set--oracle-character-set-840/index.html" rel="canonical" type="text/html" title="Java + Oracle xmltype insert 시 문제 : Non supported character set : oracle-character-set-840 :: Do What You Want To Do">
-    <link href="/css/auto-complete/auto-complete.min.css?1774430552" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1774430552" defer></script>
-    <script src="/js/search-lunr.min.js?1774430552" defer></script>
-    <script src="/js/search.min.js?1774430552" defer></script>
+    <link href="//localhost:7001/posts/software-engineering/java-+-oracle-xmltype-insert-%EC%8B%9C-%EB%AC%B8%EC%A0%9C--non-supported-character-set--oracle-character-set-840/index.html" rel="canonical" type="text/html" title="Java + Oracle xmltype insert 시 문제 : Non supported character set : oracle-character-set-840 :: Do What You Want To Do">
+    <link href="/css/auto-complete/auto-complete.min.css?1776117795" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776117795" defer></script>
+    <script src="/js/search-lunr.js?1776117795" defer></script>
+    <script src="/js/search.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/searchindex.en.js?1774430552";
+      window.relearn.index_js_url="/searchindex.en.js?1776117795";
     </script>
-    <script src="/js/lunr/lunr.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.ko.min.js?1774430552" defer></script>
+    <script src="/js/lunr/lunr.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.ko.min.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['ko'];
     </script>
-    <link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1774430552" rel="stylesheet">
-    <link href="/css/theme.min.css?1774430552" rel="stylesheet">
-    <link href="/css/format-print.min.css?1774430552" rel="stylesheet" id="R-format-style">
+    <link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776117795" rel="stylesheet">
+    <link href="/css/theme.css?1776117795" rel="stylesheet">
+    <link href="/css/format-print.css?1776117795" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/posts\/software-engineering\/java-\u002b-oracle-xmltype-insert-%EC%8B%9C-%EB%AC%B8%EC%A0%9C--non-supported-character-set--oracle-character-set-840\/index.html';
       window.relearn.relBasePath='..\/..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='';
+      window.relearn.absBaseUri='\/\/localhost:7001';
       window.relearn.disableInlineCopyToClipboard=false;
       window.relearn.enableBlockCodeWrap=true;
       // translations
@@ -207,14 +207,8 @@ Looks like you got wrong JDBC drivers loaded by the JVM - for 1.4 try ojdbc14.ja
         </div>
       </main>
     </div>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1774430552" defer></script>
-    <script src="/js/theme.min.js?1774430552" defer></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-3QTEZE6PDE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-3QTEZE6PDE');
-</script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776117795" defer></script>
+    <script src="/js/theme.js?1776117795" defer></script>
     <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
   </body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html id="R-html" lang="ko-KR" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=7001&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.152.2">
@@ -10,7 +10,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="shoutcast 서버에서 정보 가져오기 php 소스 :: Do What You Want To Do">
     <meta name="twitter:description" content="http://yoda.ih.nu/ 에 가면 shoutcast 서버에 admin.cgi를 통해 로그인 후 정보를 fetch 해오는 소스가 있는데 xml을 해석하는 방식이라서 더 깔끔하기는 한데 속도가 많이 느리고 굳이 아이디/암호로 로그인까지 할 필요도 없고 해서 아래 소스를 추천한다. 복잡하게 ‘fsockopen함수를 쓰지 말고 file 함수를 쓰면 되지 않느냐?‘라고 생각할 수도 있는데 예를 들면 $htmlCodes = file(‘http://live140.impek.com:8090/&#39;); 이런식으로. 그러나 불가능하다. “404 Resource Not Found ” 가 발생하는데 shoutcast 서버는 agent가 일반적인 브라우져가 아니면 404에러를 발생하는 듯 하다.">
-    <meta property="og:url" content="/posts/software-engineering/shoutcast-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%EC%A0%95%EB%B3%B4-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-php-%EC%86%8C%EC%8A%A4/index.html">
+    <meta property="og:url" content="//localhost:7001/posts/software-engineering/shoutcast-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%EC%A0%95%EB%B3%B4-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-php-%EC%86%8C%EC%8A%A4/index.html">
     <meta property="og:site_name" content="Do What You Want To Do">
     <meta property="og:title" content="shoutcast 서버에서 정보 가져오기 php 소스 :: Do What You Want To Do">
     <meta property="og:description" content="http://yoda.ih.nu/ 에 가면 shoutcast 서버에 admin.cgi를 통해 로그인 후 정보를 fetch 해오는 소스가 있는데 xml을 해석하는 방식이라서 더 깔끔하기는 한데 속도가 많이 느리고 굳이 아이디/암호로 로그인까지 할 필요도 없고 해서 아래 소스를 추천한다. 복잡하게 ‘fsockopen함수를 쓰지 말고 file 함수를 쓰면 되지 않느냐?‘라고 생각할 수도 있는데 예를 들면 $htmlCodes = file(‘http://live140.impek.com:8090/&#39;); 이런식으로. 그러나 불가능하다. “404 Resource Not Found ” 가 발생하는데 shoutcast 서버는 agent가 일반적인 브라우져가 아니면 404에러를 발생하는 듯 하다.">
@@ -26,35 +26,35 @@
     <meta itemprop="wordCount" content="74">
     <meta itemprop="keywords" content="Software Engineering">
     <title>shoutcast 서버에서 정보 가져오기 php 소스 :: Do What You Want To Do</title>
-    <link href="/posts/software-engineering/shoutcast-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%EC%A0%95%EB%B3%B4-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-php-%EC%86%8C%EC%8A%A4/index.html" rel="canonical" type="text/html" title="shoutcast 서버에서 정보 가져오기 php 소스 :: Do What You Want To Do">
-    <link href="/css/auto-complete/auto-complete.min.css?1774430552" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1774430552" defer></script>
-    <script src="/js/search-lunr.min.js?1774430552" defer></script>
-    <script src="/js/search.min.js?1774430552" defer></script>
+    <link href="//localhost:7001/posts/software-engineering/shoutcast-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%EC%A0%95%EB%B3%B4-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-php-%EC%86%8C%EC%8A%A4/index.html" rel="canonical" type="text/html" title="shoutcast 서버에서 정보 가져오기 php 소스 :: Do What You Want To Do">
+    <link href="/css/auto-complete/auto-complete.min.css?1776117795" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776117795" defer></script>
+    <script src="/js/search-lunr.js?1776117795" defer></script>
+    <script src="/js/search.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/searchindex.en.js?1774430552";
+      window.relearn.index_js_url="/searchindex.en.js?1776117795";
     </script>
-    <script src="/js/lunr/lunr.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.ko.min.js?1774430552" defer></script>
+    <script src="/js/lunr/lunr.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.ko.min.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['ko'];
     </script>
-    <link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1774430552" rel="stylesheet">
-    <link href="/css/theme.min.css?1774430552" rel="stylesheet">
-    <link href="/css/format-print.min.css?1774430552" rel="stylesheet" id="R-format-style">
+    <link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776117795" rel="stylesheet">
+    <link href="/css/theme.css?1776117795" rel="stylesheet">
+    <link href="/css/format-print.css?1776117795" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/posts\/software-engineering\/shoutcast-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C-%EC%A0%95%EB%B3%B4-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-php-%EC%86%8C%EC%8A%A4\/index.html';
       window.relearn.relBasePath='..\/..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='';
+      window.relearn.absBaseUri='\/\/localhost:7001';
       window.relearn.disableInlineCopyToClipboard=false;
       window.relearn.enableBlockCodeWrap=true;
       // translations
@@ -190,14 +190,8 @@
         </div>
       </main>
     </div>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1774430552" defer></script>
-    <script src="/js/theme.min.js?1774430552" defer></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-3QTEZE6PDE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-3QTEZE6PDE');
-</script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776117795" defer></script>
+    <script src="/js/theme.js?1776117795" defer></script>
     <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
   </body>
 </html>

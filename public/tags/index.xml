@@ -2,717 +2,724 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags :: Do What You Want To Do</title>
-    <link>/tags/index.html</link>
+    <link>//localhost:7001/tags/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Fri, 17 Dec 2021 22:31:51 +0900</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:7001/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tag :: Java</title>
-      <link>/tags/java/index.html</link>
+      <link>//localhost:7001/tags/java/index.html</link>
       <pubDate>Fri, 17 Dec 2021 22:31:51 +0900</pubDate>
-      <guid>/tags/java/index.html</guid>
+      <guid>//localhost:7001/tags/java/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 자바의 정석(남궁성)</title>
-      <link>/tags/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D%EB%82%A8%EA%B6%81%EC%84%B1/index.html</link>
+      <link>//localhost:7001/tags/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D%EB%82%A8%EA%B6%81%EC%84%B1/index.html</link>
       <pubDate>Fri, 17 Dec 2021 22:31:51 +0900</pubDate>
-      <guid>/tags/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D%EB%82%A8%EA%B6%81%EC%84%B1/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%9E%90%EB%B0%94%EC%9D%98-%EC%A0%95%EC%84%9D%EB%82%A8%EA%B6%81%EC%84%B1/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Architecture</title>
-      <link>/tags/architecture/index.html</link>
+      <link>//localhost:7001/tags/architecture/index.html</link>
       <pubDate>Wed, 11 Aug 2021 10:05:20 +0900</pubDate>
-      <guid>/tags/architecture/index.html</guid>
+      <guid>//localhost:7001/tags/architecture/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag :: Docker</title>
-      <link>/tags/docker/index.html</link>
-      <pubDate>Wed, 14 Jul 2021 23:59:28 +0900</pubDate>
-      <guid>/tags/docker/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Oracle</title>
-      <link>/tags/oracle/index.html</link>
-      <pubDate>Wed, 14 Jul 2021 23:59:28 +0900</pubDate>
-      <guid>/tags/oracle/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Design Pattern</title>
-      <link>/tags/design-pattern/index.html</link>
-      <pubDate>Tue, 29 Jun 2021 22:47:34 +0900</pubDate>
-      <guid>/tags/design-pattern/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Agile</title>
-      <link>/tags/agile/index.html</link>
-      <pubDate>Sat, 12 Jun 2021 10:38:46 +0900</pubDate>
-      <guid>/tags/agile/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Redmine</title>
-      <link>/tags/redmine/index.html</link>
-      <pubDate>Sat, 12 Jun 2021 10:38:46 +0900</pubDate>
-      <guid>/tags/redmine/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Ubuntu</title>
-      <link>/tags/ubuntu/index.html</link>
-      <pubDate>Tue, 08 Jun 2021 22:20:30 +0900</pubDate>
-      <guid>/tags/ubuntu/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Vs Code</title>
-      <link>/tags/vs-code/index.html</link>
-      <pubDate>Tue, 08 Jun 2021 22:20:30 +0900</pubDate>
-      <guid>/tags/vs-code/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Taurus</title>
-      <link>/tags/taurus/index.html</link>
-      <pubDate>Mon, 15 Feb 2021 00:16:55 +0900</pubDate>
-      <guid>/tags/taurus/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: 프로그래밍</title>
-      <link>/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/index.html</link>
-      <pubDate>Mon, 15 Feb 2021 00:16:55 +0900</pubDate>
-      <guid>/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Karate</title>
-      <link>/tags/karate/index.html</link>
-      <pubDate>Sat, 09 Jan 2021 22:59:55 +0900</pubDate>
-      <guid>/tags/karate/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: 방법론</title>
-      <link>/tags/%EB%B0%A9%EB%B2%95%EB%A1%A0/index.html</link>
-      <pubDate>Sun, 04 Oct 2020 21:13:35 +0900</pubDate>
-      <guid>/tags/%EB%B0%A9%EB%B2%95%EB%A1%A0/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: 애자일</title>
-      <link>/tags/%EC%95%A0%EC%9E%90%EC%9D%BC/index.html</link>
-      <pubDate>Sun, 04 Oct 2020 21:13:35 +0900</pubDate>
-      <guid>/tags/%EC%95%A0%EC%9E%90%EC%9D%BC/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Node</title>
-      <link>/tags/node/index.html</link>
-      <pubDate>Wed, 30 Sep 2020 12:37:16 +0900</pubDate>
-      <guid>/tags/node/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: ReactJS</title>
-      <link>/tags/reactjs/index.html</link>
-      <pubDate>Wed, 30 Sep 2020 12:37:16 +0900</pubDate>
-      <guid>/tags/reactjs/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tag :: Chromebook</title>
-      <link>/tags/chromebook/index.html</link>
-      <pubDate>Sat, 16 May 2020 17:49:41 +0900</pubDate>
-      <guid>/tags/chromebook/index.html</guid>
+      <title>Tag :: Hansung_TFX4470H</title>
+      <link>//localhost:7001/tags/hansung_tfx4470h/index.html</link>
+      <pubDate>Mon, 09 Aug 2021 08:56:35 +0900</pubDate>
+      <guid>//localhost:7001/tags/hansung_tfx4470h/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Linux</title>
-      <link>/tags/linux/index.html</link>
+      <link>//localhost:7001/tags/linux/index.html</link>
+      <pubDate>Mon, 09 Aug 2021 08:56:35 +0900</pubDate>
+      <guid>//localhost:7001/tags/linux/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Docker</title>
+      <link>//localhost:7001/tags/docker/index.html</link>
+      <pubDate>Wed, 14 Jul 2021 23:59:28 +0900</pubDate>
+      <guid>//localhost:7001/tags/docker/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Oracle</title>
+      <link>//localhost:7001/tags/oracle/index.html</link>
+      <pubDate>Wed, 14 Jul 2021 23:59:28 +0900</pubDate>
+      <guid>//localhost:7001/tags/oracle/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Design Pattern</title>
+      <link>//localhost:7001/tags/design-pattern/index.html</link>
+      <pubDate>Tue, 29 Jun 2021 22:47:34 +0900</pubDate>
+      <guid>//localhost:7001/tags/design-pattern/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Agile</title>
+      <link>//localhost:7001/tags/agile/index.html</link>
+      <pubDate>Sat, 12 Jun 2021 10:38:46 +0900</pubDate>
+      <guid>//localhost:7001/tags/agile/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Redmine</title>
+      <link>//localhost:7001/tags/redmine/index.html</link>
+      <pubDate>Sat, 12 Jun 2021 10:38:46 +0900</pubDate>
+      <guid>//localhost:7001/tags/redmine/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Ubuntu</title>
+      <link>//localhost:7001/tags/ubuntu/index.html</link>
+      <pubDate>Tue, 08 Jun 2021 22:20:30 +0900</pubDate>
+      <guid>//localhost:7001/tags/ubuntu/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Vs Code</title>
+      <link>//localhost:7001/tags/vs-code/index.html</link>
+      <pubDate>Tue, 08 Jun 2021 22:20:30 +0900</pubDate>
+      <guid>//localhost:7001/tags/vs-code/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Taurus</title>
+      <link>//localhost:7001/tags/taurus/index.html</link>
+      <pubDate>Mon, 15 Feb 2021 00:16:55 +0900</pubDate>
+      <guid>//localhost:7001/tags/taurus/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: 프로그래밍</title>
+      <link>//localhost:7001/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/index.html</link>
+      <pubDate>Mon, 15 Feb 2021 00:16:55 +0900</pubDate>
+      <guid>//localhost:7001/tags/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Karate</title>
+      <link>//localhost:7001/tags/karate/index.html</link>
+      <pubDate>Sat, 09 Jan 2021 22:59:55 +0900</pubDate>
+      <guid>//localhost:7001/tags/karate/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: 방법론</title>
+      <link>//localhost:7001/tags/%EB%B0%A9%EB%B2%95%EB%A1%A0/index.html</link>
+      <pubDate>Sun, 04 Oct 2020 21:13:35 +0900</pubDate>
+      <guid>//localhost:7001/tags/%EB%B0%A9%EB%B2%95%EB%A1%A0/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: 애자일</title>
+      <link>//localhost:7001/tags/%EC%95%A0%EC%9E%90%EC%9D%BC/index.html</link>
+      <pubDate>Sun, 04 Oct 2020 21:13:35 +0900</pubDate>
+      <guid>//localhost:7001/tags/%EC%95%A0%EC%9E%90%EC%9D%BC/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Node</title>
+      <link>//localhost:7001/tags/node/index.html</link>
+      <pubDate>Wed, 30 Sep 2020 12:37:16 +0900</pubDate>
+      <guid>//localhost:7001/tags/node/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: ReactJS</title>
+      <link>//localhost:7001/tags/reactjs/index.html</link>
+      <pubDate>Wed, 30 Sep 2020 12:37:16 +0900</pubDate>
+      <guid>//localhost:7001/tags/reactjs/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tag :: Chromebook</title>
+      <link>//localhost:7001/tags/chromebook/index.html</link>
       <pubDate>Sat, 16 May 2020 17:49:41 +0900</pubDate>
-      <guid>/tags/linux/index.html</guid>
+      <guid>//localhost:7001/tags/chromebook/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Certbot</title>
-      <link>/tags/certbot/index.html</link>
+      <link>//localhost:7001/tags/certbot/index.html</link>
       <pubDate>Sun, 10 May 2020 21:23:09 +0900</pubDate>
-      <guid>/tags/certbot/index.html</guid>
+      <guid>//localhost:7001/tags/certbot/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Spring Boot</title>
-      <link>/tags/spring-boot/index.html</link>
+      <link>//localhost:7001/tags/spring-boot/index.html</link>
       <pubDate>Sun, 10 May 2020 21:23:09 +0900</pubDate>
-      <guid>/tags/spring-boot/index.html</guid>
+      <guid>//localhost:7001/tags/spring-boot/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Material-UI</title>
-      <link>/tags/material-ui/index.html</link>
+      <link>//localhost:7001/tags/material-ui/index.html</link>
       <pubDate>Tue, 05 May 2020 21:58:18 +0900</pubDate>
-      <guid>/tags/material-ui/index.html</guid>
+      <guid>//localhost:7001/tags/material-ui/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Android</title>
-      <link>/tags/android/index.html</link>
+      <link>//localhost:7001/tags/android/index.html</link>
       <pubDate>Fri, 01 May 2020 12:03:18 +0900</pubDate>
-      <guid>/tags/android/index.html</guid>
+      <guid>//localhost:7001/tags/android/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Qwerty Phone</title>
-      <link>/tags/qwerty-phone/index.html</link>
+      <link>//localhost:7001/tags/qwerty-phone/index.html</link>
       <pubDate>Fri, 01 May 2020 12:03:18 +0900</pubDate>
-      <guid>/tags/qwerty-phone/index.html</guid>
+      <guid>//localhost:7001/tags/qwerty-phone/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Sony Xperia Pro</title>
-      <link>/tags/sony-xperia-pro/index.html</link>
+      <link>//localhost:7001/tags/sony-xperia-pro/index.html</link>
       <pubDate>Fri, 01 May 2020 12:03:18 +0900</pubDate>
-      <guid>/tags/sony-xperia-pro/index.html</guid>
+      <guid>//localhost:7001/tags/sony-xperia-pro/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: JPA</title>
-      <link>/tags/jpa/index.html</link>
+      <link>//localhost:7001/tags/jpa/index.html</link>
       <pubDate>Mon, 27 Apr 2020 21:26:43 +0900</pubDate>
-      <guid>/tags/jpa/index.html</guid>
+      <guid>//localhost:7001/tags/jpa/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Samba</title>
-      <link>/tags/samba/index.html</link>
+      <link>//localhost:7001/tags/samba/index.html</link>
       <pubDate>Sun, 19 Apr 2020 22:34:15 +0900</pubDate>
-      <guid>/tags/samba/index.html</guid>
+      <guid>//localhost:7001/tags/samba/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 개발</title>
-      <link>/tags/%EA%B0%9C%EB%B0%9C/index.html</link>
+      <link>//localhost:7001/tags/%EA%B0%9C%EB%B0%9C/index.html</link>
       <pubDate>Sun, 19 Apr 2020 21:44:58 +0900</pubDate>
-      <guid>/tags/%EA%B0%9C%EB%B0%9C/index.html</guid>
+      <guid>//localhost:7001/tags/%EA%B0%9C%EB%B0%9C/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 소프트웨어</title>
-      <link>/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/index.html</link>
+      <link>//localhost:7001/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/index.html</link>
       <pubDate>Sun, 19 Apr 2020 21:44:58 +0900</pubDate>
-      <guid>/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 리눅스</title>
-      <link>/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/index.html</link>
+      <link>//localhost:7001/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/index.html</link>
       <pubDate>Sat, 18 Apr 2020 14:22:37 +0900</pubDate>
-      <guid>/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%A6%AC%EB%88%85%EC%8A%A4/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 픽셀북</title>
-      <link>/tags/%ED%94%BD%EC%85%80%EB%B6%81/index.html</link>
+      <link>//localhost:7001/tags/%ED%94%BD%EC%85%80%EB%B6%81/index.html</link>
       <pubDate>Sat, 18 Apr 2020 14:22:37 +0900</pubDate>
-      <guid>/tags/%ED%94%BD%EC%85%80%EB%B6%81/index.html</guid>
+      <guid>//localhost:7001/tags/%ED%94%BD%EC%85%80%EB%B6%81/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Sparkylinux</title>
-      <link>/tags/sparkylinux/index.html</link>
+      <link>//localhost:7001/tags/sparkylinux/index.html</link>
       <pubDate>Sat, 02 Nov 2019 02:14:20 +0900</pubDate>
-      <guid>/tags/sparkylinux/index.html</guid>
+      <guid>//localhost:7001/tags/sparkylinux/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Mirroring</title>
-      <link>/tags/mirroring/index.html</link>
+      <link>//localhost:7001/tags/mirroring/index.html</link>
       <pubDate>Tue, 29 Oct 2019 21:42:39 +0900</pubDate>
-      <guid>/tags/mirroring/index.html</guid>
+      <guid>//localhost:7001/tags/mirroring/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Wget</title>
-      <link>/tags/wget/index.html</link>
+      <link>//localhost:7001/tags/wget/index.html</link>
       <pubDate>Tue, 29 Oct 2019 21:42:39 +0900</pubDate>
-      <guid>/tags/wget/index.html</guid>
+      <guid>//localhost:7001/tags/wget/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Pixelbook</title>
-      <link>/tags/pixelbook/index.html</link>
+      <link>//localhost:7001/tags/pixelbook/index.html</link>
       <pubDate>Wed, 04 Sep 2019 13:25:00 +0900</pubDate>
-      <guid>/tags/pixelbook/index.html</guid>
+      <guid>//localhost:7001/tags/pixelbook/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 보헤미아</title>
-      <link>/tags/%EB%B3%B4%ED%97%A4%EB%AF%B8%EC%95%84/index.html</link>
+      <link>//localhost:7001/tags/%EB%B3%B4%ED%97%A4%EB%AF%B8%EC%95%84/index.html</link>
       <pubDate>Tue, 20 Aug 2019 17:25:01 +0900</pubDate>
-      <guid>/tags/%EB%B3%B4%ED%97%A4%EB%AF%B8%EC%95%84/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%B3%B4%ED%97%A4%EB%AF%B8%EC%95%84/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Ffmpeg</title>
-      <link>/tags/ffmpeg/index.html</link>
+      <link>//localhost:7001/tags/ffmpeg/index.html</link>
       <pubDate>Tue, 20 Aug 2019 17:06:05 +0900</pubDate>
-      <guid>/tags/ffmpeg/index.html</guid>
+      <guid>//localhost:7001/tags/ffmpeg/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Life Hack</title>
-      <link>/tags/life-hack/index.html</link>
+      <link>//localhost:7001/tags/life-hack/index.html</link>
       <pubDate>Thu, 15 Aug 2019 13:32:43 +0900</pubDate>
-      <guid>/tags/life-hack/index.html</guid>
+      <guid>//localhost:7001/tags/life-hack/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 고양이</title>
-      <link>/tags/%EA%B3%A0%EC%96%91%EC%9D%B4/index.html</link>
+      <link>//localhost:7001/tags/%EA%B3%A0%EC%96%91%EC%9D%B4/index.html</link>
       <pubDate>Thu, 15 Aug 2019 13:32:43 +0900</pubDate>
-      <guid>/tags/%EA%B3%A0%EC%96%91%EC%9D%B4/index.html</guid>
+      <guid>//localhost:7001/tags/%EA%B3%A0%EC%96%91%EC%9D%B4/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Tablet</title>
-      <link>/tags/tablet/index.html</link>
+      <link>//localhost:7001/tags/tablet/index.html</link>
       <pubDate>Thu, 15 Aug 2019 00:00:34 +0900</pubDate>
-      <guid>/tags/tablet/index.html</guid>
+      <guid>//localhost:7001/tags/tablet/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Google</title>
-      <link>/tags/google/index.html</link>
+      <link>//localhost:7001/tags/google/index.html</link>
       <pubDate>Wed, 14 Aug 2019 09:26:56 +0900</pubDate>
-      <guid>/tags/google/index.html</guid>
+      <guid>//localhost:7001/tags/google/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Quake</title>
-      <link>/tags/quake/index.html</link>
+      <link>//localhost:7001/tags/quake/index.html</link>
       <pubDate>Tue, 13 Aug 2019 18:28:39 +0900</pubDate>
-      <guid>/tags/quake/index.html</guid>
+      <guid>//localhost:7001/tags/quake/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: WebGL</title>
-      <link>/tags/webgl/index.html</link>
+      <link>//localhost:7001/tags/webgl/index.html</link>
       <pubDate>Tue, 13 Aug 2019 18:28:39 +0900</pubDate>
-      <guid>/tags/webgl/index.html</guid>
+      <guid>//localhost:7001/tags/webgl/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Flutter</title>
-      <link>/tags/flutter/index.html</link>
+      <link>//localhost:7001/tags/flutter/index.html</link>
       <pubDate>Wed, 31 Jul 2019 15:14:43 +0900</pubDate>
-      <guid>/tags/flutter/index.html</guid>
+      <guid>//localhost:7001/tags/flutter/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Visual Studio Code</title>
-      <link>/tags/visual-studio-code/index.html</link>
+      <link>//localhost:7001/tags/visual-studio-code/index.html</link>
       <pubDate>Wed, 31 Jul 2019 15:14:43 +0900</pubDate>
-      <guid>/tags/visual-studio-code/index.html</guid>
+      <guid>//localhost:7001/tags/visual-studio-code/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Reaper</title>
-      <link>/tags/reaper/index.html</link>
+      <link>//localhost:7001/tags/reaper/index.html</link>
       <pubDate>Wed, 10 Jul 2019 17:24:26 +0900</pubDate>
-      <guid>/tags/reaper/index.html</guid>
+      <guid>//localhost:7001/tags/reaper/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 이글루스</title>
-      <link>/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4/index.html</link>
+      <link>//localhost:7001/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4/index.html</link>
       <pubDate>Sun, 23 Jun 2019 16:36:35 +0900</pubDate>
-      <guid>/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 이글루스 백업</title>
-      <link>/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4-%EB%B0%B1%EC%97%85/index.html</link>
+      <link>//localhost:7001/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4-%EB%B0%B1%EC%97%85/index.html</link>
       <pubDate>Sun, 23 Jun 2019 16:36:35 +0900</pubDate>
-      <guid>/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4-%EB%B0%B1%EC%97%85/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4-%EB%B0%B1%EC%97%85/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 이글루스 블로그 백업</title>
-      <link>/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%B1%EC%97%85/index.html</link>
+      <link>//localhost:7001/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%B1%EC%97%85/index.html</link>
       <pubDate>Sun, 23 Jun 2019 16:36:35 +0900</pubDate>
-      <guid>/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%B1%EC%97%85/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%9D%B4%EA%B8%80%EB%A3%A8%EC%8A%A4-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%B1%EC%97%85/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Termdown</title>
-      <link>/tags/termdown/index.html</link>
+      <link>//localhost:7001/tags/termdown/index.html</link>
       <pubDate>Sun, 24 Mar 2019 10:38:28 +0900</pubDate>
-      <guid>/tags/termdown/index.html</guid>
+      <guid>//localhost:7001/tags/termdown/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Gear360</title>
-      <link>/tags/gear360/index.html</link>
+      <link>//localhost:7001/tags/gear360/index.html</link>
       <pubDate>Tue, 19 Mar 2019 23:38:28 +0900</pubDate>
-      <guid>/tags/gear360/index.html</guid>
+      <guid>//localhost:7001/tags/gear360/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Crostini</title>
-      <link>/tags/crostini/index.html</link>
+      <link>//localhost:7001/tags/crostini/index.html</link>
       <pubDate>Sat, 16 Mar 2019 22:38:28 +0900</pubDate>
-      <guid>/tags/crostini/index.html</guid>
+      <guid>//localhost:7001/tags/crostini/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Hugo</title>
-      <link>/tags/hugo/index.html</link>
+      <link>//localhost:7001/tags/hugo/index.html</link>
       <pubDate>Fri, 15 Mar 2019 22:38:28 +0900</pubDate>
-      <guid>/tags/hugo/index.html</guid>
+      <guid>//localhost:7001/tags/hugo/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Overloading</title>
-      <link>/tags/overloading/index.html</link>
+      <link>//localhost:7001/tags/overloading/index.html</link>
       <pubDate>Sun, 24 Jun 2018 10:54:24 +0200</pubDate>
-      <guid>/tags/overloading/index.html</guid>
+      <guid>//localhost:7001/tags/overloading/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Overring</title>
-      <link>/tags/overring/index.html</link>
+      <link>//localhost:7001/tags/overring/index.html</link>
       <pubDate>Sun, 24 Jun 2018 10:54:24 +0200</pubDate>
-      <guid>/tags/overring/index.html</guid>
+      <guid>//localhost:7001/tags/overring/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Theme</title>
-      <link>/tags/theme/index.html</link>
+      <link>//localhost:7001/tags/theme/index.html</link>
       <pubDate>Sat, 23 Jun 2018 10:54:24 +0200</pubDate>
-      <guid>/tags/theme/index.html</guid>
+      <guid>//localhost:7001/tags/theme/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 구현</title>
-      <link>/tags/%EA%B5%AC%ED%98%84/index.html</link>
+      <link>//localhost:7001/tags/%EA%B5%AC%ED%98%84/index.html</link>
       <pubDate>Tue, 12 Dec 2017 22:38:28 +0900</pubDate>
-      <guid>/tags/%EA%B5%AC%ED%98%84/index.html</guid>
+      <guid>//localhost:7001/tags/%EA%B5%AC%ED%98%84/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 소프트웨어 프로젝트</title>
-      <link>/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/index.html</link>
+      <link>//localhost:7001/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/index.html</link>
       <pubDate>Tue, 12 Dec 2017 22:38:28 +0900</pubDate>
-      <guid>/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: C100PA</title>
-      <link>/tags/c100pa/index.html</link>
+      <link>//localhost:7001/tags/c100pa/index.html</link>
       <pubDate>Sun, 22 Oct 2017 22:38:28 +0900</pubDate>
-      <guid>/tags/c100pa/index.html</guid>
+      <guid>//localhost:7001/tags/c100pa/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Chrombook</title>
-      <link>/tags/chrombook/index.html</link>
+      <link>//localhost:7001/tags/chrombook/index.html</link>
       <pubDate>Sun, 22 Oct 2017 22:38:28 +0900</pubDate>
-      <guid>/tags/chrombook/index.html</guid>
+      <guid>//localhost:7001/tags/chrombook/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: DS03</title>
-      <link>/tags/ds03/index.html</link>
+      <link>//localhost:7001/tags/ds03/index.html</link>
       <pubDate>Sun, 22 Oct 2017 22:38:28 +0900</pubDate>
-      <guid>/tags/ds03/index.html</guid>
+      <guid>//localhost:7001/tags/ds03/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Flip</title>
-      <link>/tags/flip/index.html</link>
+      <link>//localhost:7001/tags/flip/index.html</link>
       <pubDate>Sun, 22 Oct 2017 22:38:28 +0900</pubDate>
-      <guid>/tags/flip/index.html</guid>
+      <guid>//localhost:7001/tags/flip/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Guitar</title>
-      <link>/tags/guitar/index.html</link>
+      <link>//localhost:7001/tags/guitar/index.html</link>
       <pubDate>Tue, 10 Feb 2015 01:03:00 +0900</pubDate>
-      <guid>/tags/guitar/index.html</guid>
+      <guid>//localhost:7001/tags/guitar/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: MySQL</title>
-      <link>/tags/mysql/index.html</link>
+      <link>//localhost:7001/tags/mysql/index.html</link>
       <pubDate>Thu, 13 Nov 2008 00:38:00 +0900</pubDate>
-      <guid>/tags/mysql/index.html</guid>
+      <guid>//localhost:7001/tags/mysql/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 개발자</title>
-      <link>/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/index.html</link>
+      <link>//localhost:7001/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/index.html</link>
       <pubDate>Wed, 12 Nov 2008 04:07:00 +0900</pubDate>
-      <guid>/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/index.html</guid>
+      <guid>//localhost:7001/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 블로그축제</title>
-      <link>/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%B6%95%EC%A0%9C/index.html</link>
+      <link>//localhost:7001/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%B6%95%EC%A0%9C/index.html</link>
       <pubDate>Sat, 01 Mar 2008 10:13:00 +0900</pubDate>
-      <guid>/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%B6%95%EC%A0%9C/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%B6%95%EC%A0%9C/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 인생</title>
-      <link>/tags/%EC%9D%B8%EC%83%9D/index.html</link>
+      <link>//localhost:7001/tags/%EC%9D%B8%EC%83%9D/index.html</link>
       <pubDate>Sun, 10 Feb 2008 09:46:00 +0900</pubDate>
-      <guid>/tags/%EC%9D%B8%EC%83%9D/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%9D%B8%EC%83%9D/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 격언</title>
-      <link>/tags/%EA%B2%A9%EC%96%B8/index.html</link>
+      <link>//localhost:7001/tags/%EA%B2%A9%EC%96%B8/index.html</link>
       <pubDate>Fri, 18 Jan 2008 15:23:00 +0900</pubDate>
-      <guid>/tags/%EA%B2%A9%EC%96%B8/index.html</guid>
+      <guid>//localhost:7001/tags/%EA%B2%A9%EC%96%B8/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Bossa</title>
-      <link>/tags/bossa/index.html</link>
+      <link>//localhost:7001/tags/bossa/index.html</link>
       <pubDate>Mon, 07 Jan 2008 22:25:00 +0900</pubDate>
-      <guid>/tags/bossa/index.html</guid>
+      <guid>//localhost:7001/tags/bossa/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Bossanova</title>
-      <link>/tags/bossanova/index.html</link>
+      <link>//localhost:7001/tags/bossanova/index.html</link>
       <pubDate>Mon, 07 Jan 2008 22:25:00 +0900</pubDate>
-      <guid>/tags/bossanova/index.html</guid>
+      <guid>//localhost:7001/tags/bossanova/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Ccl</title>
-      <link>/tags/ccl/index.html</link>
+      <link>//localhost:7001/tags/ccl/index.html</link>
       <pubDate>Wed, 26 Dec 2007 14:31:00 +0900</pubDate>
-      <guid>/tags/ccl/index.html</guid>
+      <guid>//localhost:7001/tags/ccl/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 브라질</title>
-      <link>/tags/%EB%B8%8C%EB%9D%BC%EC%A7%88/index.html</link>
+      <link>//localhost:7001/tags/%EB%B8%8C%EB%9D%BC%EC%A7%88/index.html</link>
       <pubDate>Fri, 21 Dec 2007 20:08:00 +0900</pubDate>
-      <guid>/tags/%EB%B8%8C%EB%9D%BC%EC%A7%88/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%B8%8C%EB%9D%BC%EC%A7%88/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 삼바</title>
-      <link>/tags/%EC%82%BC%EB%B0%94/index.html</link>
+      <link>//localhost:7001/tags/%EC%82%BC%EB%B0%94/index.html</link>
       <pubDate>Fri, 21 Dec 2007 20:08:00 +0900</pubDate>
-      <guid>/tags/%EC%82%BC%EB%B0%94/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%82%BC%EB%B0%94/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 영웅</title>
-      <link>/tags/%EC%98%81%EC%9B%85/index.html</link>
+      <link>//localhost:7001/tags/%EC%98%81%EC%9B%85/index.html</link>
       <pubDate>Sun, 16 Dec 2007 20:51:00 +0900</pubDate>
-      <guid>/tags/%EC%98%81%EC%9B%85/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%98%81%EC%9B%85/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 제브라맨</title>
-      <link>/tags/%EC%A0%9C%EB%B8%8C%EB%9D%BC%EB%A7%A8/index.html</link>
+      <link>//localhost:7001/tags/%EC%A0%9C%EB%B8%8C%EB%9D%BC%EB%A7%A8/index.html</link>
       <pubDate>Sun, 16 Dec 2007 20:51:00 +0900</pubDate>
-      <guid>/tags/%EC%A0%9C%EB%B8%8C%EB%9D%BC%EB%A7%A8/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%A0%9C%EB%B8%8C%EB%9D%BC%EB%A7%A8/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: LARAFABIAN</title>
-      <link>/tags/larafabian/index.html</link>
+      <link>//localhost:7001/tags/larafabian/index.html</link>
       <pubDate>Sat, 15 Dec 2007 15:04:00 +0900</pubDate>
-      <guid>/tags/larafabian/index.html</guid>
+      <guid>//localhost:7001/tags/larafabian/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Excel</title>
-      <link>/tags/excel/index.html</link>
+      <link>//localhost:7001/tags/excel/index.html</link>
       <pubDate>Wed, 12 Dec 2007 11:59:00 +0900</pubDate>
-      <guid>/tags/excel/index.html</guid>
+      <guid>//localhost:7001/tags/excel/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: VLOOKUP</title>
-      <link>/tags/vlookup/index.html</link>
+      <link>//localhost:7001/tags/vlookup/index.html</link>
       <pubDate>Wed, 12 Dec 2007 11:59:00 +0900</pubDate>
-      <guid>/tags/vlookup/index.html</guid>
+      <guid>//localhost:7001/tags/vlookup/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Dannyboy</title>
-      <link>/tags/dannyboy/index.html</link>
+      <link>//localhost:7001/tags/dannyboy/index.html</link>
       <pubDate>Mon, 10 Dec 2007 09:01:00 +0900</pubDate>
-      <guid>/tags/dannyboy/index.html</guid>
+      <guid>//localhost:7001/tags/dannyboy/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 통기타</title>
-      <link>/tags/%ED%86%B5%EA%B8%B0%ED%83%80/index.html</link>
+      <link>//localhost:7001/tags/%ED%86%B5%EA%B8%B0%ED%83%80/index.html</link>
       <pubDate>Tue, 04 Dec 2007 14:23:00 +0900</pubDate>
-      <guid>/tags/%ED%86%B5%EA%B8%B0%ED%83%80/index.html</guid>
+      <guid>//localhost:7001/tags/%ED%86%B5%EA%B8%B0%ED%83%80/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 더블린</title>
-      <link>/tags/%EB%8D%94%EB%B8%94%EB%A6%B0/index.html</link>
+      <link>//localhost:7001/tags/%EB%8D%94%EB%B8%94%EB%A6%B0/index.html</link>
       <pubDate>Sun, 02 Dec 2007 17:47:00 +0900</pubDate>
-      <guid>/tags/%EB%8D%94%EB%B8%94%EB%A6%B0/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%8D%94%EB%B8%94%EB%A6%B0/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 아일랜드</title>
-      <link>/tags/%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C/index.html</link>
+      <link>//localhost:7001/tags/%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C/index.html</link>
       <pubDate>Sun, 02 Dec 2007 17:47:00 +0900</pubDate>
-      <guid>/tags/%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%95%84%EC%9D%BC%EB%9E%9C%EB%93%9C/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 브이포벤데타</title>
-      <link>/tags/%EB%B8%8C%EC%9D%B4%ED%8F%AC%EB%B2%A4%EB%8D%B0%ED%83%80/index.html</link>
+      <link>//localhost:7001/tags/%EB%B8%8C%EC%9D%B4%ED%8F%AC%EB%B2%A4%EB%8D%B0%ED%83%80/index.html</link>
       <pubDate>Sun, 02 Dec 2007 09:06:00 +0900</pubDate>
-      <guid>/tags/%EB%B8%8C%EC%9D%B4%ED%8F%AC%EB%B2%A4%EB%8D%B0%ED%83%80/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%B8%8C%EC%9D%B4%ED%8F%AC%EB%B2%A4%EB%8D%B0%ED%83%80/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 마츠코</title>
-      <link>/tags/%EB%A7%88%EC%B8%A0%EC%BD%94/index.html</link>
+      <link>//localhost:7001/tags/%EB%A7%88%EC%B8%A0%EC%BD%94/index.html</link>
       <pubDate>Fri, 23 Nov 2007 14:47:00 +0900</pubDate>
-      <guid>/tags/%EB%A7%88%EC%B8%A0%EC%BD%94/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%A7%88%EC%B8%A0%EC%BD%94/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 모리</title>
-      <link>/tags/%EB%AA%A8%EB%A6%AC/index.html</link>
+      <link>//localhost:7001/tags/%EB%AA%A8%EB%A6%AC/index.html</link>
       <pubDate>Fri, 23 Nov 2007 14:47:00 +0900</pubDate>
-      <guid>/tags/%EB%AA%A8%EB%A6%AC/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%AA%A8%EB%A6%AC/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 피셔킹</title>
-      <link>/tags/%ED%94%BC%EC%85%94%ED%82%B9/index.html</link>
+      <link>//localhost:7001/tags/%ED%94%BC%EC%85%94%ED%82%B9/index.html</link>
       <pubDate>Fri, 23 Nov 2007 14:47:00 +0900</pubDate>
-      <guid>/tags/%ED%94%BC%EC%85%94%ED%82%B9/index.html</guid>
+      <guid>//localhost:7001/tags/%ED%94%BC%EC%85%94%ED%82%B9/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Brazil</title>
-      <link>/tags/brazil/index.html</link>
+      <link>//localhost:7001/tags/brazil/index.html</link>
       <pubDate>Wed, 21 Nov 2007 14:02:00 +0900</pubDate>
-      <guid>/tags/brazil/index.html</guid>
+      <guid>//localhost:7001/tags/brazil/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 심리학</title>
-      <link>/tags/%EC%8B%AC%EB%A6%AC%ED%95%99/index.html</link>
+      <link>//localhost:7001/tags/%EC%8B%AC%EB%A6%AC%ED%95%99/index.html</link>
       <pubDate>Wed, 24 Oct 2007 23:49:00 +0900</pubDate>
-      <guid>/tags/%EC%8B%AC%EB%A6%AC%ED%95%99/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%8B%AC%EB%A6%AC%ED%95%99/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 프레임</title>
-      <link>/tags/%ED%94%84%EB%A0%88%EC%9E%84/index.html</link>
+      <link>//localhost:7001/tags/%ED%94%84%EB%A0%88%EC%9E%84/index.html</link>
       <pubDate>Wed, 24 Oct 2007 23:49:00 +0900</pubDate>
-      <guid>/tags/%ED%94%84%EB%A0%88%EC%9E%84/index.html</guid>
+      <guid>//localhost:7001/tags/%ED%94%84%EB%A0%88%EC%9E%84/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Bullet</title>
-      <link>/tags/bullet/index.html</link>
+      <link>//localhost:7001/tags/bullet/index.html</link>
       <pubDate>Mon, 22 Oct 2007 22:51:00 +0900</pubDate>
-      <guid>/tags/bullet/index.html</guid>
+      <guid>//localhost:7001/tags/bullet/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: War</title>
-      <link>/tags/war/index.html</link>
+      <link>//localhost:7001/tags/war/index.html</link>
       <pubDate>Mon, 22 Oct 2007 22:51:00 +0900</pubDate>
-      <guid>/tags/war/index.html</guid>
+      <guid>//localhost:7001/tags/war/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Cashback</title>
-      <link>/tags/cashback/index.html</link>
+      <link>//localhost:7001/tags/cashback/index.html</link>
       <pubDate>Sun, 30 Sep 2007 14:04:00 +0900</pubDate>
-      <guid>/tags/cashback/index.html</guid>
+      <guid>//localhost:7001/tags/cashback/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 캐쉬백</title>
-      <link>/tags/%EC%BA%90%EC%89%AC%EB%B0%B1/index.html</link>
+      <link>//localhost:7001/tags/%EC%BA%90%EC%89%AC%EB%B0%B1/index.html</link>
       <pubDate>Sun, 30 Sep 2007 14:04:00 +0900</pubDate>
-      <guid>/tags/%EC%BA%90%EC%89%AC%EB%B0%B1/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%BA%90%EC%89%AC%EB%B0%B1/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 칠드런오브맨</title>
-      <link>/tags/%EC%B9%A0%EB%93%9C%EB%9F%B0%EC%98%A4%EB%B8%8C%EB%A7%A8/index.html</link>
+      <link>//localhost:7001/tags/%EC%B9%A0%EB%93%9C%EB%9F%B0%EC%98%A4%EB%B8%8C%EB%A7%A8/index.html</link>
       <pubDate>Wed, 05 Sep 2007 00:08:00 +0900</pubDate>
-      <guid>/tags/%EC%B9%A0%EB%93%9C%EB%9F%B0%EC%98%A4%EB%B8%8C%EB%A7%A8/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%B9%A0%EB%93%9C%EB%9F%B0%EC%98%A4%EB%B8%8C%EB%A7%A8/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 범죄영화</title>
-      <link>/tags/%EB%B2%94%EC%A3%84%EC%98%81%ED%99%94/index.html</link>
+      <link>//localhost:7001/tags/%EB%B2%94%EC%A3%84%EC%98%81%ED%99%94/index.html</link>
       <pubDate>Tue, 31 Jul 2007 23:59:00 +0900</pubDate>
-      <guid>/tags/%EB%B2%94%EC%A3%84%EC%98%81%ED%99%94/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%B2%94%EC%A3%84%EC%98%81%ED%99%94/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: B142</title>
-      <link>/tags/b142/index.html</link>
+      <link>//localhost:7001/tags/b142/index.html</link>
       <pubDate>Sun, 14 Jan 2007 11:21:00 +0900</pubDate>
-      <guid>/tags/b142/index.html</guid>
+      <guid>//localhost:7001/tags/b142/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Injection</title>
-      <link>/tags/injection/index.html</link>
+      <link>//localhost:7001/tags/injection/index.html</link>
       <pubDate>Tue, 29 Aug 2006 18:56:00 +0900</pubDate>
-      <guid>/tags/injection/index.html</guid>
+      <guid>//localhost:7001/tags/injection/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: Sql</title>
-      <link>/tags/sql/index.html</link>
+      <link>//localhost:7001/tags/sql/index.html</link>
       <pubDate>Tue, 29 Aug 2006 18:56:00 +0900</pubDate>
-      <guid>/tags/sql/index.html</guid>
+      <guid>//localhost:7001/tags/sql/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 돌고래</title>
-      <link>/tags/%EB%8F%8C%EA%B3%A0%EB%9E%98/index.html</link>
+      <link>//localhost:7001/tags/%EB%8F%8C%EA%B3%A0%EB%9E%98/index.html</link>
       <pubDate>Fri, 25 Nov 2005 12:52:00 +0900</pubDate>
-      <guid>/tags/%EB%8F%8C%EA%B3%A0%EB%9E%98/index.html</guid>
+      <guid>//localhost:7001/tags/%EB%8F%8C%EA%B3%A0%EB%9E%98/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 사랑</title>
-      <link>/tags/%EC%82%AC%EB%9E%91/index.html</link>
+      <link>//localhost:7001/tags/%EC%82%AC%EB%9E%91/index.html</link>
       <pubDate>Fri, 25 Nov 2005 12:52:00 +0900</pubDate>
-      <guid>/tags/%EC%82%AC%EB%9E%91/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%82%AC%EB%9E%91/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Tag :: 책</title>
-      <link>/tags/%EC%B1%85/index.html</link>
+      <link>//localhost:7001/tags/%EC%B1%85/index.html</link>
       <pubDate>Fri, 25 Nov 2005 12:52:00 +0900</pubDate>
-      <guid>/tags/%EC%B1%85/index.html</guid>
+      <guid>//localhost:7001/tags/%EC%B1%85/index.html</guid>
       <description></description>
     </item>
   </channel>

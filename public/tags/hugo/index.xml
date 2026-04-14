@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo :: Tag :: Do What You Want To Do</title>
-    <link>/tags/hugo/index.html</link>
+    <link>//localhost:7001/tags/hugo/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Fri, 15 Mar 2019 22:38:28 +0900</lastBuildDate>
-    <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:7001/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pixelbook에서 hugo 설치</title>
-      <link>/posts/tech/hugoonpixelbook/index.html</link>
+      <link>//localhost:7001/posts/tech/hugoonpixelbook/index.html</link>
       <pubDate>Fri, 15 Mar 2019 22:38:28 +0900</pubDate>
-      <guid>/posts/tech/hugoonpixelbook/index.html</guid>
+      <guid>//localhost:7001/posts/tech/hugoonpixelbook/index.html</guid>
       <description>설치 ASUS Chromebook C100PA-DS03 에 설치할 때와 마찬가지로 최신버전을 설치하려면 deb 파일을 다운 받아야 한다. 현재 최신 버전은 hugo_0.54.0-1_amd64.deb 이다. 하지만 libsass1이 필요하다고 하니 먼저 설치한다.&#xA;다운로드 경로 https://packages.debian.org/sid/amd64/libsass1/download&#xA;다운 받은 후 설치&#xA;$ sudo dpkg -i libsass1_3.5.5-2_amd64.deb 다운로드 경로 https://packages.debian.org/sid/amd64/hugo/download&#xA;다운 받은 후 설치&#xA;$ sudo dpkg -i hugo_0.54.0-1_amd64.deb 구동 pixelbook에서는 hugo 기본 포트인 1313 으로 띄울 수 없으니 아래를 참고하고 https://www.reddit.com/r/Crostini/comments/aewwhf/cannot_access_penguinlinuxtestport/</description>
     </item>
     <item>
       <title>Hugo Theme 변경 테스트</title>
-      <link>/posts/tech/post-title/index.html</link>
+      <link>//localhost:7001/posts/tech/post-title/index.html</link>
       <pubDate>Sat, 23 Jun 2018 10:54:24 +0200</pubDate>
-      <guid>/posts/tech/post-title/index.html</guid>
+      <guid>//localhost:7001/posts/tech/post-title/index.html</guid>
       <description>Hugo Theme 변경 테스트</description>
     </item>
   </channel>

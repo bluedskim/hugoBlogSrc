@@ -37,26 +37,26 @@
     <meta itemprop="keywords" content="Java,Design Pattern">
     <title>Java 디자인 패턴-06.Template Method :: Do What You Want To Do</title>
     <link href="//localhost:7001/posts/tech/javadesignpattern-06.template-method/index.html" rel="canonical" type="text/html" title="Java 디자인 패턴-06.Template Method :: Do What You Want To Do">
-    <link href="/css/auto-complete/auto-complete.min.css?1774393347" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1774393347" defer></script>
-    <script src="/js/search-lunr.js?1774393347" defer></script>
-    <script src="/js/search.js?1774393347" defer></script>
+    <link href="/css/auto-complete/auto-complete.min.css?1776117795" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776117795" defer></script>
+    <script src="/js/search-lunr.js?1776117795" defer></script>
+    <script src="/js/search.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/searchindex.en.js?1774393347";
+      window.relearn.index_js_url="/searchindex.en.js?1776117795";
     </script>
-    <script src="/js/lunr/lunr.min.js?1774393347" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1774393347" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1774393347" defer></script>
-    <script src="/js/lunr/lunr.ko.min.js?1774393347" defer></script>
+    <script src="/js/lunr/lunr.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.ko.min.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['ko'];
     </script>
-    <link href="/fonts/fontawesome/css/all.min.css?1774393347" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1774393347" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1774393347" rel="stylesheet">
-    <link href="/css/theme.css?1774393347" rel="stylesheet">
-    <link href="/css/format-print.css?1774393347" rel="stylesheet" id="R-format-style">
+    <link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776117795" rel="stylesheet">
+    <link href="/css/theme.css?1776117795" rel="stylesheet">
+    <link href="/css/format-print.css?1776117795" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -177,8 +177,8 @@
 
 <p>(<em>Java 디자인 패턴 스터디 모집 중 : <a href="https://github.com/bluedskim/javaDesignPatterns" rel="external">https://github.com/bluedskim/javaDesignPatterns</a></em>)</p>
 <h2 id="패턴-다이어그램">패턴 다이어그램<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
-<p><a href="#R-image-8cad62e56f1d3dc9ce4e114720df5bb8" class="lightbox-link"><img alt="Design patterns: Template Method" class="lazy lightbox figure-image" loading="lazy" src="https://steemitimages.com/DQmRbBeqNZykcGGhvat7hHyfZhqFu3ypgGm19L6FkuvbFCG/templatemethod.png" style="height: auto;width: auto;" title="Design patterns: Template Method"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8cad62e56f1d3dc9ce4e114720df5bb8"><img alt="Design patterns: Template Method" class="lazy lightbox lightbox-image" loading="lazy" src="https://steemitimages.com/DQmRbBeqNZykcGGhvat7hHyfZhqFu3ypgGm19L6FkuvbFCG/templatemethod.png" title="Design patterns: Template Method"></a></p>
+<p><a href="#R-image-f0286f6865d53551499782972a757176" class="lightbox-link"><img alt="Design patterns: Template Method" class="lazy lightbox figure-image" loading="lazy" src="https://steemitimages.com/DQmRbBeqNZykcGGhvat7hHyfZhqFu3ypgGm19L6FkuvbFCG/templatemethod.png" style="height: auto;width: auto;" title="Design patterns: Template Method"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f0286f6865d53551499782972a757176"><img alt="Design patterns: Template Method" class="lazy lightbox lightbox-image" loading="lazy" src="https://steemitimages.com/DQmRbBeqNZykcGGhvat7hHyfZhqFu3ypgGm19L6FkuvbFCG/templatemethod.png" title="Design patterns: Template Method"></a></p>
 <p>(<a href="https://steemit.com/design-patterns/@slawas/design-patterns-template-method" rel="external">출처:https://steemit.com/design-patterns/@slawas/design-patterns-template-method</a>)</p>
 <h2 id="해결하려는-문제">해결하려는 문제<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
 <ol>
@@ -196,8 +196,8 @@
 <li>추상 객체를 부모로 사용하는 대신 인터페이스로 만들 수도 있다. 하지만 이 경우 모든 메소드는 public 으로 접근가능하므로 주의가 필요</li>
 </ol>
 <h2 id="클래스-다이어그램">클래스 다이어그램<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
-<p><a href="#R-image-00650fed1c521cac8dd620e415afeb85" class="lightbox-link"><img alt="Template Method 패턴(김동석)" class="lazy lightbox figure-image" loading="lazy" src="https://www.plantuml.com/plantuml/png/hL9DIyD043sxls8eIDD3cdiLwK6mbq31_e5DTfgitKtAxgHGFq2XDmNnAAXdZmfU_4ir_GzkqrgK1l7WddRdpRptPcQxbhYXGYiOe1uhJWWXKfeBMDmyBsPltlpzykFslfmzjXXBfK1mQJG5ZJf2Ot-6bdMMCPAay0zyANA11bAYiUq4GI8fBQ9sdEiWKWKAEv8wEE4JVeXM9bcV4w79B1lckRj0-NHNpbxBwuVvonNi2gVaDQRkjCEmBKGJchrUH-k6iyruPCdmc21Mt5euuXhXZEsCYqZ968x9o2m1PtRgjTZE9daTbvaaoPKyHQ-rjmrNy-jNjJKePk8Bks1i9Hzo8_EbVhr0BUylT0EUZOOoIUaVATUhMsrkWBRYdkHI06r1RcQki9hf_hdlhzhxzjxuOwo6r_SFgdqmrdLEt3_y1000" style="height: auto;width: auto;" title="Template Method 패턴(김동석)"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-00650fed1c521cac8dd620e415afeb85"><img alt="Template Method 패턴(김동석)" class="lazy lightbox lightbox-image" loading="lazy" src="https://www.plantuml.com/plantuml/png/hL9DIyD043sxls8eIDD3cdiLwK6mbq31_e5DTfgitKtAxgHGFq2XDmNnAAXdZmfU_4ir_GzkqrgK1l7WddRdpRptPcQxbhYXGYiOe1uhJWWXKfeBMDmyBsPltlpzykFslfmzjXXBfK1mQJG5ZJf2Ot-6bdMMCPAay0zyANA11bAYiUq4GI8fBQ9sdEiWKWKAEv8wEE4JVeXM9bcV4w79B1lckRj0-NHNpbxBwuVvonNi2gVaDQRkjCEmBKGJchrUH-k6iyruPCdmc21Mt5euuXhXZEsCYqZ968x9o2m1PtRgjTZE9daTbvaaoPKyHQ-rjmrNy-jNjJKePk8Bks1i9Hzo8_EbVhr0BUylT0EUZOOoIUaVATUhMsrkWBRYdkHI06r1RcQki9hf_hdlhzhxzjxuOwo6r_SFgdqmrdLEt3_y1000" title="Template Method 패턴(김동석)"></a></p>
+<p><a href="#R-image-8e0903ce85c2ab1bfd21ce9059a6e9a1" class="lightbox-link"><img alt="Template Method 패턴(김동석)" class="lazy lightbox figure-image" loading="lazy" src="https://www.plantuml.com/plantuml/png/hL9DIyD043sxls8eIDD3cdiLwK6mbq31_e5DTfgitKtAxgHGFq2XDmNnAAXdZmfU_4ir_GzkqrgK1l7WddRdpRptPcQxbhYXGYiOe1uhJWWXKfeBMDmyBsPltlpzykFslfmzjXXBfK1mQJG5ZJf2Ot-6bdMMCPAay0zyANA11bAYiUq4GI8fBQ9sdEiWKWKAEv8wEE4JVeXM9bcV4w79B1lckRj0-NHNpbxBwuVvonNi2gVaDQRkjCEmBKGJchrUH-k6iyruPCdmc21Mt5euuXhXZEsCYqZ968x9o2m1PtRgjTZE9daTbvaaoPKyHQ-rjmrNy-jNjJKePk8Bks1i9Hzo8_EbVhr0BUylT0EUZOOoIUaVATUhMsrkWBRYdkHI06r1RcQki9hf_hdlhzhxzjxuOwo6r_SFgdqmrdLEt3_y1000" style="height: auto;width: auto;" title="Template Method 패턴(김동석)"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e0903ce85c2ab1bfd21ce9059a6e9a1"><img alt="Template Method 패턴(김동석)" class="lazy lightbox lightbox-image" loading="lazy" src="https://www.plantuml.com/plantuml/png/hL9DIyD043sxls8eIDD3cdiLwK6mbq31_e5DTfgitKtAxgHGFq2XDmNnAAXdZmfU_4ir_GzkqrgK1l7WddRdpRptPcQxbhYXGYiOe1uhJWWXKfeBMDmyBsPltlpzykFslfmzjXXBfK1mQJG5ZJf2Ot-6bdMMCPAay0zyANA11bAYiUq4GI8fBQ9sdEiWKWKAEv8wEE4JVeXM9bcV4w79B1lckRj0-NHNpbxBwuVvonNi2gVaDQRkjCEmBKGJchrUH-k6iyruPCdmc21Mt5euuXhXZEsCYqZ968x9o2m1PtRgjTZE9daTbvaaoPKyHQ-rjmrNy-jNjJKePk8Bks1i9Hzo8_EbVhr0BUylT0EUZOOoIUaVATUhMsrkWBRYdkHI06r1RcQki9hf_hdlhzhxzjxuOwo6r_SFgdqmrdLEt3_y1000" title="Template Method 패턴(김동석)"></a></p>
 <h2 id="소스">소스<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
 <ol>
 <li>template method : Game.java.play()
@@ -445,8 +445,8 @@
         </div>
       </main>
     </div>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1774393347" defer></script>
-    <script src="/js/theme.js?1774393347" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776117795" defer></script>
+    <script src="/js/theme.js?1776117795" defer></script>
     <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
   </body>
 </html>

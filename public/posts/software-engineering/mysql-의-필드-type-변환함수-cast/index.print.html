@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html id="R-html" lang="ko-KR" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=7001&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.152.2">
@@ -10,7 +10,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="MySQL 의 필드 type 변환함수 CAST :: Do What You Want To Do">
     <meta name="twitter:description" content="text 유형 필드에 들어있는 값들을 숫자값 기준으로 정렬하고자 한다면 반드시 해당 필드를 CAST함수를 이용해서 변환해야 한다. 다음 2개의 쿼리를 비교해 보자 * 쿼리 : select * from prices order by price; * 결과 : 1420 1590 1990 220 2390 2660 280 2990 3420 380 3990 4270 450 570 5700 760 850 이건 원하는 결과가 아니다. ㅠㅠ…. (애초에 테이블을 만들 때 필드를 숫자 형태로 만들었어야 한다…) CAST함수를 사용한다면, * 쿼리 : select * from prices order by CAST(price AS UNSIGNED); * 결과 : 220 280 380 450 570 760 850 1060 1420 1590 1990 2390 2660 2990 3420 3990 4270 5700 제대로 나온다. 더 자세한 API는 여기에 http://dev.mysql.com/doc/refman/5.0/en/cast-functions.html">
-    <meta property="og:url" content="/posts/software-engineering/mysql-%EC%9D%98-%ED%95%84%EB%93%9C-type-%EB%B3%80%ED%99%98%ED%95%A8%EC%88%98-cast/index.html">
+    <meta property="og:url" content="//localhost:7001/posts/software-engineering/mysql-%EC%9D%98-%ED%95%84%EB%93%9C-type-%EB%B3%80%ED%99%98%ED%95%A8%EC%88%98-cast/index.html">
     <meta property="og:site_name" content="Do What You Want To Do">
     <meta property="og:title" content="MySQL 의 필드 type 변환함수 CAST :: Do What You Want To Do">
     <meta property="og:description" content="text 유형 필드에 들어있는 값들을 숫자값 기준으로 정렬하고자 한다면 반드시 해당 필드를 CAST함수를 이용해서 변환해야 한다. 다음 2개의 쿼리를 비교해 보자 * 쿼리 : select * from prices order by price; * 결과 : 1420 1590 1990 220 2390 2660 280 2990 3420 380 3990 4270 450 570 5700 760 850 이건 원하는 결과가 아니다. ㅠㅠ…. (애초에 테이블을 만들 때 필드를 숫자 형태로 만들었어야 한다…) CAST함수를 사용한다면, * 쿼리 : select * from prices order by CAST(price AS UNSIGNED); * 결과 : 220 280 380 450 570 760 850 1060 1420 1590 1990 2390 2660 2990 3420 3990 4270 5700 제대로 나온다. 더 자세한 API는 여기에 http://dev.mysql.com/doc/refman/5.0/en/cast-functions.html">
@@ -27,35 +27,35 @@
     <meta itemprop="wordCount" content="107">
     <meta itemprop="keywords" content="MySQL">
     <title>MySQL 의 필드 type 변환함수 CAST :: Do What You Want To Do</title>
-    <link href="/posts/software-engineering/mysql-%EC%9D%98-%ED%95%84%EB%93%9C-type-%EB%B3%80%ED%99%98%ED%95%A8%EC%88%98-cast/index.html" rel="canonical" type="text/html" title="MySQL 의 필드 type 변환함수 CAST :: Do What You Want To Do">
-    <link href="/css/auto-complete/auto-complete.min.css?1774430552" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1774430552" defer></script>
-    <script src="/js/search-lunr.min.js?1774430552" defer></script>
-    <script src="/js/search.min.js?1774430552" defer></script>
+    <link href="//localhost:7001/posts/software-engineering/mysql-%EC%9D%98-%ED%95%84%EB%93%9C-type-%EB%B3%80%ED%99%98%ED%95%A8%EC%88%98-cast/index.html" rel="canonical" type="text/html" title="MySQL 의 필드 type 변환함수 CAST :: Do What You Want To Do">
+    <link href="/css/auto-complete/auto-complete.min.css?1776117795" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776117795" defer></script>
+    <script src="/js/search-lunr.js?1776117795" defer></script>
+    <script src="/js/search.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/searchindex.en.js?1774430552";
+      window.relearn.index_js_url="/searchindex.en.js?1776117795";
     </script>
-    <script src="/js/lunr/lunr.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.ko.min.js?1774430552" defer></script>
+    <script src="/js/lunr/lunr.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.ko.min.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['ko'];
     </script>
-    <link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1774430552" rel="stylesheet">
-    <link href="/css/theme.min.css?1774430552" rel="stylesheet">
-    <link href="/css/format-print.min.css?1774430552" rel="stylesheet" id="R-format-style">
+    <link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776117795" rel="stylesheet">
+    <link href="/css/theme.css?1776117795" rel="stylesheet">
+    <link href="/css/format-print.css?1776117795" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/posts\/software-engineering\/mysql-%EC%9D%98-%ED%95%84%EB%93%9C-type-%EB%B3%80%ED%99%98%ED%95%A8%EC%88%98-cast\/index.html';
       window.relearn.relBasePath='..\/..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='';
+      window.relearn.absBaseUri='\/\/localhost:7001';
       window.relearn.disableInlineCopyToClipboard=false;
       window.relearn.enableBlockCodeWrap=true;
       // translations
@@ -235,14 +235,8 @@
         </div>
       </main>
     </div>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1774430552" defer></script>
-    <script src="/js/theme.min.js?1774430552" defer></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-3QTEZE6PDE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-3QTEZE6PDE');
-</script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776117795" defer></script>
+    <script src="/js/theme.js?1776117795" defer></script>
     <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
   </body>
 </html>

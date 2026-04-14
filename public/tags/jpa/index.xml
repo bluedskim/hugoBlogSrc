@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JPA :: Tag :: Do What You Want To Do</title>
-    <link>/tags/jpa/index.html</link>
+    <link>//localhost:7001/tags/jpa/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Mon, 27 Apr 2020 21:26:43 +0900</lastBuildDate>
-    <atom:link href="/tags/jpa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:7001/tags/jpa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring Boot &#43; JPA &#43; REST &#43; HATEOAS &#43; Lombok 그리고 VS code 환경에서 getter()를 찾지 못하는 문제</title>
-      <link>/posts/tech/spring-boot-&#43;-jpa-&#43;-rest-&#43;-hateoas-with-lombok/index.html</link>
+      <link>//localhost:7001/posts/tech/spring-boot-&#43;-jpa-&#43;-rest-&#43;-hateoas-with-lombok/index.html</link>
       <pubDate>Mon, 27 Apr 2020 21:26:43 +0900</pubDate>
-      <guid>/posts/tech/spring-boot-&#43;-jpa-&#43;-rest-&#43;-hateoas-with-lombok/index.html</guid>
+      <guid>//localhost:7001/posts/tech/spring-boot-&#43;-jpa-&#43;-rest-&#43;-hateoas-with-lombok/index.html</guid>
       <description>증상은 제목과 같다.&#xA;아래 소스코드에서 보듯 @Data 어노테이션이 있는데도 불구하고 api 호출 결과에 word 변수의 값이 출력되지 않는다&#xA;Java소스 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 @Entity @Data @Table(name=&#34;first_word&#34;) @NamedQuery(name=&#34;FirstWord.findAll&#34;, query=&#34;SELECT e FROM FirstWord e&#34;) public class FirstWord extends BaseEntity implements Serializable { private static final long serialVersionUID = 1L; @Id @GeneratedValue(strategy=GenerationType.IDENTITY) @Column(name=&#34;seq&#34;) @Description(&#34;순번&#34;) private Long seq; @Column(name=&#34;word&#34;) @Description(&#34;단어&#34;) private String word; }</description>
     </item>
   </channel>

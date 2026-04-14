@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html id="R-html" lang="ko-KR" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=7001&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.152.2">
@@ -20,7 +20,7 @@ IP주소관리자에게 전화해서 그 시간에 그 아이피가 할당된 �
 http://ipwhois.nic.or.kr/ 에서 가장 최근의 IP 주소로 조회하면 해당 IP주소관리자 연락처를 알 수 있음
 IP주소관리자에게 전화해서 그 시간에 그 아이피가 할당된 인터넷 모뎀의 대여자가 누구인지, 주소는 어디인지 물어본다.
 안가르쳐주면 경찰에 도난신고 ※ 위의 방법은 탈옥해야 가능 ※ php를 돌릴 수 있는 웹호스팅 필요 ※ 이런거를 쉽게 해주는 어플이 있는것으로 알고 있음 다시 상세하게 1. 웹서버에 iPadLog.php 설치 2. Cydia 에서 wget 설치 3. /var/root/conToBrazilFlavored.sh 작성 &lt; conToBrazilFlavored.sh 의 내용 &gt;  wget -O ipadLog.php  http://brazilflavored.com/ipadLog/ipadLog.php ※ 실행권한을 줘야 동작함. 터미널에서 chmod 로 권한변경 chmod 777 /var/root/conToBrazilFlavored.sh 4. /Library/LaunchDaemons/conToBrazilFlavored.plist 작성 &lt; conToBrazilFlavored.plist 의 내용 &gt;  &lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt; &lt;!DOCTYPE plist PUBLIC &#34;-//Apple Computer//DTD PLIST 1.0//EN&#34; &#34;http://www.apple.com/DTDs/PropertyList-1.0.dtd&#34;&gt; &lt;plist version=&#34;1.0&#34;&gt; &lt;dict&gt; &lt;key&gt;Label&lt;/key&gt; &lt;string&gt;conToBrazilFlavored&lt;/string&gt; &lt;key&gt;ProgramArguments&lt;/key&gt; &lt;array&gt; &lt;string&gt; /var/root/conToBrazilFlavored.sh&lt;/string&gt; &lt;/array&gt; &lt;key&gt; StartCalendarInterval&lt;/key&gt; &lt;dict&gt; &lt;key&gt; Minute&lt;/key&gt; &lt;integer&gt; 1&lt;/integer&gt; &lt;/dict&gt; &lt;/dict&gt; &lt;/plist&gt; 5. conToBrazilFlavored.plist를 시작하기 위해 터미널에서 launchctl 명령어 입력 launchctl load /Library/LaunchDaemons/conToBrazilFlavored.plist 이제 매시간마다 로그가 쌓임. 참조 URL :  http://brazilflavored.com/ipadLog/logs/2010_07_16_log.txt   TeamViewer 2010/07/19 17:30 # 삭제 답글 안녕하세요. 저희는 독일에 위치한 원격 제어 소프트웨어을 개발하는 TeamViewer입니다. 팀뷰어는 윈도우뿐만 아니라 리눅스와 맥킨토시 또한 아이폰과 아이패드에서도 사용가능하며 소프트웨어를 한글어로 제공하고 있습니다. 아이패드용 TeamViewer HD는 아이패드를 통한 데스크톱과의 원격제어로 이동중에도 자유롭게 원격제어 소프트웨어가 제공하는 기존의 장점들을 누릴 수 있습니다. TeamViewer HD는 iTunes App-Store을 통해 다운받으실 수 있으며, 개인사용자에게는 무료로 제공되며 상업용으로 사용하 실 경우에는 TeamViewer Pro HD의 라이선스를 구입하시면 됩니다. 자세한 내용은 http://www.teamviewer.com/ipad 을 통해 확인하시기 바랍니다. 문의 사항이 있으시면 info@teamviewer.com 으로 언제든지 연락주시기 바랍니다. 감사합니다. Teamviewer Germany">
-    <meta property="og:url" content="/posts/software-engineering/%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EB%8F%84%EB%82%9C%EB%8B%B9%ED%95%9C-ipad-iphone-ipod-%EB%A5%BC-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4/index.html">
+    <meta property="og:url" content="//localhost:7001/posts/software-engineering/%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EB%8F%84%EB%82%9C%EB%8B%B9%ED%95%9C-ipad-iphone-ipod-%EB%A5%BC-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4/index.html">
     <meta property="og:site_name" content="Do What You Want To Do">
     <meta property="og:title" content="잃어버린/도난당한 iPad, iPhone, iPod 를 찾기 위한 아이디어 :: Do What You Want To Do">
     <meta property="og:description" content="간략하게 정리하면  iPad 에서 매시간마다 특정 웹페이지를 방문하도록 함(wget 이용)
@@ -46,35 +46,35 @@ IP주소관리자에게 전화해서 그 시간에 그 아이피가 할당된 �
     <meta itemprop="wordCount" content="233">
     <meta itemprop="keywords" content="Software Engineering">
     <title>잃어버린/도난당한 iPad, iPhone, iPod 를 찾기 위한 아이디어 :: Do What You Want To Do</title>
-    <link href="/posts/software-engineering/%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EB%8F%84%EB%82%9C%EB%8B%B9%ED%95%9C-ipad-iphone-ipod-%EB%A5%BC-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4/index.html" rel="canonical" type="text/html" title="잃어버린/도난당한 iPad, iPhone, iPod 를 찾기 위한 아이디어 :: Do What You Want To Do">
-    <link href="/css/auto-complete/auto-complete.min.css?1774430552" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1774430552" defer></script>
-    <script src="/js/search-lunr.min.js?1774430552" defer></script>
-    <script src="/js/search.min.js?1774430552" defer></script>
+    <link href="//localhost:7001/posts/software-engineering/%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EB%8F%84%EB%82%9C%EB%8B%B9%ED%95%9C-ipad-iphone-ipod-%EB%A5%BC-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4/index.html" rel="canonical" type="text/html" title="잃어버린/도난당한 iPad, iPhone, iPod 를 찾기 위한 아이디어 :: Do What You Want To Do">
+    <link href="/css/auto-complete/auto-complete.min.css?1776117795" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776117795" defer></script>
+    <script src="/js/search-lunr.js?1776117795" defer></script>
+    <script src="/js/search.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/searchindex.en.js?1774430552";
+      window.relearn.index_js_url="/searchindex.en.js?1776117795";
     </script>
-    <script src="/js/lunr/lunr.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.ko.min.js?1774430552" defer></script>
+    <script src="/js/lunr/lunr.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.ko.min.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['ko'];
     </script>
-    <link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1774430552" rel="stylesheet">
-    <link href="/css/theme.min.css?1774430552" rel="stylesheet">
-    <link href="/css/format-print.min.css?1774430552" rel="stylesheet" id="R-format-style">
+    <link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776117795" rel="stylesheet">
+    <link href="/css/theme.css?1776117795" rel="stylesheet">
+    <link href="/css/format-print.css?1776117795" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/posts\/software-engineering\/%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EB%8F%84%EB%82%9C%EB%8B%B9%ED%95%9C-ipad-iphone-ipod-%EB%A5%BC-%EC%B0%BE%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4\/index.html';
       window.relearn.relBasePath='..\/..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='';
+      window.relearn.absBaseUri='\/\/localhost:7001';
       window.relearn.disableInlineCopyToClipboard=false;
       window.relearn.enableBlockCodeWrap=true;
       // translations
@@ -321,14 +321,8 @@ IP주소관리자에게 전화해서 그 시간에 그 아이피가 할당된 �
         </div>
       </main>
     </div>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1774430552" defer></script>
-    <script src="/js/theme.min.js?1774430552" defer></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-3QTEZE6PDE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-3QTEZE6PDE');
-</script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776117795" defer></script>
+    <script src="/js/theme.js?1776117795" defer></script>
     <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
   </body>
 </html>

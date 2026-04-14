@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories :: Do What You Want To Do</title>
-    <link>/categories/index.html</link>
+    <link>//localhost:7001/categories/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Fri, 17 Dec 2021 22:31:51 +0900</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:7001/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Category :: Tech</title>
-      <link>/categories/tech/index.html</link>
+      <link>//localhost:7001/categories/tech/index.html</link>
       <pubDate>Fri, 17 Dec 2021 22:31:51 +0900</pubDate>
-      <guid>/categories/tech/index.html</guid>
+      <guid>//localhost:7001/categories/tech/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Linux</title>
-      <link>/categories/linux/index.html</link>
+      <link>//localhost:7001/categories/linux/index.html</link>
       <pubDate>Fri, 21 May 2021 00:00:37 +0900</pubDate>
-      <guid>/categories/linux/index.html</guid>
+      <guid>//localhost:7001/categories/linux/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Perl</title>
-      <link>/categories/perl/index.html</link>
+      <link>//localhost:7001/categories/perl/index.html</link>
       <pubDate>Fri, 21 May 2021 00:00:37 +0900</pubDate>
-      <guid>/categories/perl/index.html</guid>
+      <guid>//localhost:7001/categories/perl/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: 일상사</title>
-      <link>/categories/%EC%9D%BC%EC%83%81%EC%82%AC/index.html</link>
+      <link>//localhost:7001/categories/%EC%9D%BC%EC%83%81%EC%82%AC/index.html</link>
       <pubDate>Thu, 22 Aug 2019 13:22:37 +0900</pubDate>
-      <guid>/categories/%EC%9D%BC%EC%83%81%EC%82%AC/index.html</guid>
+      <guid>//localhost:7001/categories/%EC%9D%BC%EC%83%81%EC%82%AC/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: MyWorks</title>
-      <link>/categories/myworks/index.html</link>
+      <link>//localhost:7001/categories/myworks/index.html</link>
       <pubDate>Tue, 20 Aug 2019 17:25:01 +0900</pubDate>
-      <guid>/categories/myworks/index.html</guid>
+      <guid>//localhost:7001/categories/myworks/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: 음악</title>
-      <link>/categories/%EC%9D%8C%EC%95%85/index.html</link>
-      <pubDate>Wed, 10 Jul 2019 17:24:26 +0900</pubDate>
-      <guid>/categories/%EC%9D%8C%EC%95%85/index.html</guid>
+      <link>//localhost:7001/categories/%EC%9D%8C%EC%95%85/index.html</link>
+      <pubDate>Thu, 15 Aug 2019 23:17:43 +0900</pubDate>
+      <guid>//localhost:7001/categories/%EC%9D%8C%EC%95%85/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: Software Engineering</title>
-      <link>/categories/software-engineering/index.html</link>
+      <link>//localhost:7001/categories/software-engineering/index.html</link>
       <pubDate>Sat, 17 Jul 2010 12:53:00 +0900</pubDate>
-      <guid>/categories/software-engineering/index.html</guid>
+      <guid>//localhost:7001/categories/software-engineering/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: 방명록</title>
-      <link>/categories/%EB%B0%A9%EB%AA%85%EB%A1%9D/index.html</link>
+      <link>//localhost:7001/categories/%EB%B0%A9%EB%AA%85%EB%A1%9D/index.html</link>
       <pubDate>Thu, 28 Feb 2008 23:04:00 +0900</pubDate>
-      <guid>/categories/%EB%B0%A9%EB%AA%85%EB%A1%9D/index.html</guid>
+      <guid>//localhost:7001/categories/%EB%B0%A9%EB%AA%85%EB%A1%9D/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Category :: 메모</title>
-      <link>/categories/%EB%A9%94%EB%AA%A8/index.html</link>
+      <link>//localhost:7001/categories/%EB%A9%94%EB%AA%A8/index.html</link>
       <pubDate>Sat, 10 Nov 2007 15:35:00 +0900</pubDate>
-      <guid>/categories/%EB%A9%94%EB%AA%A8/index.html</guid>
+      <guid>//localhost:7001/categories/%EB%A9%94%EB%AA%A8/index.html</guid>
       <description></description>
     </item>
   </channel>

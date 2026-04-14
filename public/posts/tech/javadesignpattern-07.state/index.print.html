@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html id="R-html" lang="ko-KR" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=7001&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.152.2">
@@ -14,7 +14,7 @@
     <meta name="twitter:description" content="(Java 디자인 패턴 스터디 모집 중 : https://github.com/bluedskim/javaDesignPatterns)
 패턴 다이어그램 “어떤 객체의 상태에 따라 행위가 변경되는 경우 유용한 패턴” (출처:https://refactoring.guru/design-patterns/state)
 해결하려는 문제 context의 상태에 따른 처리가 구분되는 경우 해당 구분로직을 context에 하드 코딩하게 되면 경우 확장성이 떨어진다. 특징/용도 상태를 클래스화 하고 해당 동작들을 넣는다 원래의 객체(context)는 현재 상태 객체의 참조를 가진다 context는 2개 이상의 상태를 동시에 가질 수는 없다 고려사항 State 패턴은 Strategy 패턴과 유사하다. 주요한 차이점은 상태객체들은 서로의 존재를 아는 반면 Strategy패턴에서는 Strategy간의 관련성은 없다는 것이다(https://refactoring.guru/design-patterns/state) 클래스 다이어그램">
-    <meta property="og:url" content="/posts/tech/javadesignpattern-07.state/index.html">
+    <meta property="og:url" content="//localhost:7001/posts/tech/javadesignpattern-07.state/index.html">
     <meta property="og:site_name" content="Do What You Want To Do">
     <meta property="og:title" content="Java 디자인 패턴-07.State :: Do What You Want To Do">
     <meta property="og:description" content="(Java 디자인 패턴 스터디 모집 중 : https://github.com/bluedskim/javaDesignPatterns)
@@ -36,35 +36,35 @@
     <meta itemprop="wordCount" content="450">
     <meta itemprop="keywords" content="Java,Design Pattern">
     <title>Java 디자인 패턴-07.State :: Do What You Want To Do</title>
-    <link href="/posts/tech/javadesignpattern-07.state/index.html" rel="canonical" type="text/html" title="Java 디자인 패턴-07.State :: Do What You Want To Do">
-    <link href="/css/auto-complete/auto-complete.min.css?1774430552" rel="stylesheet">
-    <script src="/js/auto-complete/auto-complete.min.js?1774430552" defer></script>
-    <script src="/js/search-lunr.min.js?1774430552" defer></script>
-    <script src="/js/search.min.js?1774430552" defer></script>
+    <link href="//localhost:7001/posts/tech/javadesignpattern-07.state/index.html" rel="canonical" type="text/html" title="Java 디자인 패턴-07.State :: Do What You Want To Do">
+    <link href="/css/auto-complete/auto-complete.min.css?1776117795" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1776117795" defer></script>
+    <script src="/js/search-lunr.js?1776117795" defer></script>
+    <script src="/js/search.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/searchindex.en.js?1774430552";
+      window.relearn.index_js_url="/searchindex.en.js?1776117795";
     </script>
-    <script src="/js/lunr/lunr.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.stemmer.support.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.multi.min.js?1774430552" defer></script>
-    <script src="/js/lunr/lunr.ko.min.js?1774430552" defer></script>
+    <script src="/js/lunr/lunr.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1776117795" defer></script>
+    <script src="/js/lunr/lunr.ko.min.js?1776117795" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['ko'];
     </script>
-    <link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1774430552" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1774430552" rel="stylesheet">
-    <link href="/css/theme.min.css?1774430552" rel="stylesheet">
-    <link href="/css/format-print.min.css?1774430552" rel="stylesheet" id="R-format-style">
+    <link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/all.min.css?1776117795" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1776117795" rel="stylesheet">
+    <link href="/css/theme.css?1776117795" rel="stylesheet">
+    <link href="/css/format-print.css?1776117795" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/posts\/tech\/javadesignpattern-07.state\/index.html';
       window.relearn.relBasePath='..\/..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='';
+      window.relearn.absBaseUri='\/\/localhost:7001';
       window.relearn.disableInlineCopyToClipboard=false;
       window.relearn.enableBlockCodeWrap=true;
       // translations
@@ -177,8 +177,8 @@
 
 <p>(<em>Java 디자인 패턴 스터디 모집 중 : <a href="https://github.com/bluedskim/javaDesignPatterns" rel="external">https://github.com/bluedskim/javaDesignPatterns</a></em>)</p>
 <h2 id="패턴-다이어그램">패턴 다이어그램<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
-<p><a href="#R-image-04e76c14cd29b925cd74c3b4a1c9cd88" class="lightbox-link"><img alt="State" class="lazy lightbox figure-image" loading="lazy" src="https://refactoring.guru/images/patterns/content/state/state-en-2x.png?id=dfd427a938223ae88029" style="height: auto;width: auto;" title="State"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-04e76c14cd29b925cd74c3b4a1c9cd88"><img alt="State" class="lazy lightbox lightbox-image" loading="lazy" src="https://refactoring.guru/images/patterns/content/state/state-en-2x.png?id=dfd427a938223ae88029" title="State"></a>
+<p><a href="#R-image-7acbe2c7e43ad1624ec80ca4de46c319" class="lightbox-link"><img alt="State" class="lazy lightbox figure-image" loading="lazy" src="https://refactoring.guru/images/patterns/content/state/state-en-2x.png?id=dfd427a938223ae88029" style="height: auto;width: auto;" title="State"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7acbe2c7e43ad1624ec80ca4de46c319"><img alt="State" class="lazy lightbox lightbox-image" loading="lazy" src="https://refactoring.guru/images/patterns/content/state/state-en-2x.png?id=dfd427a938223ae88029" title="State"></a>
 &ldquo;어떤 객체의 상태에 따라 행위가 변경되는 경우 유용한 패턴&rdquo;
 (출처:<a href="https://refactoring.guru/design-patterns/state" rel="external">https://refactoring.guru/design-patterns/state</a>)</p>
 <h2 id="해결하려는-문제">해결하려는 문제<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
@@ -196,8 +196,8 @@
 <li>State 패턴은 Strategy 패턴과 유사하다. 주요한 차이점은 상태객체들은 서로의 존재를 아는 반면 Strategy패턴에서는 Strategy간의 관련성은 없다는 것이다(<a href="https://refactoring.guru/design-patterns/state" rel="external">https://refactoring.guru/design-patterns/state</a>)</li>
 </ol>
 <h2 id="클래스-다이어그램">클래스 다이어그램<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
-<p><a href="#R-image-0a34f0ee348334e54572dc2431c6eced" class="lightbox-link"><img alt="State 패턴(김동석)" class="lazy lightbox figure-image" loading="lazy" src="https://www.plantuml.com/plantuml/png/dLEzJiCm49xnKrYLK9EXoLuGwb293XGgu0MS-9gOnabbNu8gG0Af6qY84GawCuB4mYkLz1rm4re8b85wEj_TztDdkQMHAKnbH8-G8T3PpTDi_6fDtoxVR-_pyQDDI2WuK9137549qWEbgoaC4wu9GO4H_CaI0kEWQ8Wur4tN3GI6gUVuYNIzA0Mk1qAw9onZRT0YY7iC4LIiIJz9J43poLq-Vicl7wRFLtIJ6mchDZB7wNOTpkkqtkaqfQmPiqJ41j1dFj0UymSiWDBH6TaOfbuaVEDGYJYW0U1-Wg8_seMvrfxGQDdaWX0_ObhJ0yKLyFMmROW4PB0s_X1y4DcwwC-n2vmIsPoYiWa_LGfYB2vRI-ui4PngADDM1H33QH7Oo-PAELY0x7yQBL37e75kjTHVPCgsYipskUDyVvKLrHzxNz5HsImXNmuQZPt5LAkp5SRV1TA2c9jVz040" style="height: auto;width: auto;" title="State 패턴(김동석)"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0a34f0ee348334e54572dc2431c6eced"><img alt="State 패턴(김동석)" class="lazy lightbox lightbox-image" loading="lazy" src="https://www.plantuml.com/plantuml/png/dLEzJiCm49xnKrYLK9EXoLuGwb293XGgu0MS-9gOnabbNu8gG0Af6qY84GawCuB4mYkLz1rm4re8b85wEj_TztDdkQMHAKnbH8-G8T3PpTDi_6fDtoxVR-_pyQDDI2WuK9137549qWEbgoaC4wu9GO4H_CaI0kEWQ8Wur4tN3GI6gUVuYNIzA0Mk1qAw9onZRT0YY7iC4LIiIJz9J43poLq-Vicl7wRFLtIJ6mchDZB7wNOTpkkqtkaqfQmPiqJ41j1dFj0UymSiWDBH6TaOfbuaVEDGYJYW0U1-Wg8_seMvrfxGQDdaWX0_ObhJ0yKLyFMmROW4PB0s_X1y4DcwwC-n2vmIsPoYiWa_LGfYB2vRI-ui4PngADDM1H33QH7Oo-PAELY0x7yQBL37e75kjTHVPCgsYipskUDyVvKLrHzxNz5HsImXNmuQZPt5LAkp5SRV1TA2c9jVz040" title="State 패턴(김동석)"></a></p>
+<p><a href="#R-image-8c4d0348de71aa49b3f4c90f5b671f50" class="lightbox-link"><img alt="State 패턴(김동석)" class="lazy lightbox figure-image" loading="lazy" src="https://www.plantuml.com/plantuml/png/dLEzJiCm49xnKrYLK9EXoLuGwb293XGgu0MS-9gOnabbNu8gG0Af6qY84GawCuB4mYkLz1rm4re8b85wEj_TztDdkQMHAKnbH8-G8T3PpTDi_6fDtoxVR-_pyQDDI2WuK9137549qWEbgoaC4wu9GO4H_CaI0kEWQ8Wur4tN3GI6gUVuYNIzA0Mk1qAw9onZRT0YY7iC4LIiIJz9J43poLq-Vicl7wRFLtIJ6mchDZB7wNOTpkkqtkaqfQmPiqJ41j1dFj0UymSiWDBH6TaOfbuaVEDGYJYW0U1-Wg8_seMvrfxGQDdaWX0_ObhJ0yKLyFMmROW4PB0s_X1y4DcwwC-n2vmIsPoYiWa_LGfYB2vRI-ui4PngADDM1H33QH7Oo-PAELY0x7yQBL37e75kjTHVPCgsYipskUDyVvKLrHzxNz5HsImXNmuQZPt5LAkp5SRV1TA2c9jVz040" style="height: auto;width: auto;" title="State 패턴(김동석)"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8c4d0348de71aa49b3f4c90f5b671f50"><img alt="State 패턴(김동석)" class="lazy lightbox lightbox-image" loading="lazy" src="https://www.plantuml.com/plantuml/png/dLEzJiCm49xnKrYLK9EXoLuGwb293XGgu0MS-9gOnabbNu8gG0Af6qY84GawCuB4mYkLz1rm4re8b85wEj_TztDdkQMHAKnbH8-G8T3PpTDi_6fDtoxVR-_pyQDDI2WuK9137549qWEbgoaC4wu9GO4H_CaI0kEWQ8Wur4tN3GI6gUVuYNIzA0Mk1qAw9onZRT0YY7iC4LIiIJz9J43poLq-Vicl7wRFLtIJ6mchDZB7wNOTpkkqtkaqfQmPiqJ41j1dFj0UymSiWDBH6TaOfbuaVEDGYJYW0U1-Wg8_seMvrfxGQDdaWX0_ObhJ0yKLyFMmROW4PB0s_X1y4DcwwC-n2vmIsPoYiWa_LGfYB2vRI-ui4PngADDM1H33QH7Oo-PAELY0x7yQBL37e75kjTHVPCgsYipskUDyVvKLrHzxNz5HsImXNmuQZPt5LAkp5SRV1TA2c9jVz040" title="State 패턴(김동석)"></a></p>
 <h2 id="소스">소스<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
 <ol>
 <li>Context : 상태를 가지고있는 객체(Package.java)
@@ -493,14 +493,8 @@
         </div>
       </main>
     </div>
-    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1774430552" defer></script>
-    <script src="/js/theme.min.js?1774430552" defer></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-3QTEZE6PDE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-3QTEZE6PDE');
-</script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1776117795" defer></script>
+    <script src="/js/theme.js?1776117795" defer></script>
     <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
   </body>
 </html>
