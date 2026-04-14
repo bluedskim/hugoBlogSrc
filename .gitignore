@@ -1,2 +1,4 @@
 .hugo_build.lock
 .hugo/
+# Hugo default publish dir (production build uses generateHtml.sh -d ../bluedskim.github.io)
+public/

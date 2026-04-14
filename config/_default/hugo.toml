@@ -1,0 +1,2 @@
+# Merged with root `config.toml`. Overrides publishDir (root key is ignored in Hugo 0.123+ for some paths).
+publishDir = "../bluedskim.github.io"

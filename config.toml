@@ -14,8 +14,7 @@ pagerSize = 5
 googleAnalytics = "UA-108812986-1"
 disqusShortname = "bluedskim"
 enableRobotsTXT = true
-# Production deploy target. Local `hugo server` overrides via config.development.toml.
-publishDir = "../bluedskim.github.io"
+# publishDir: see config/_default/hugo.toml (production) and config/development/hugo.toml (hugo server).
 hasCJKLanguage = true
 
 [permalinks]

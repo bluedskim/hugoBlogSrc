@@ -1,3 +1,0 @@
-# Used automatically by `hugo server` (development environment).
-# Avoids writing every rebuild to ../bluedskim.github.io (slow sync / live reload).
-publishDir = ".hugo/public"
